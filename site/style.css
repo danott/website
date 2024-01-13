@@ -1,0 +1,21 @@
+/* @format */
+
+body {
+  margin: 4rem auto;
+  max-width: 40rem;
+  line-height: 1.6;
+  font-size: 20px;
+  color: #444;
+  padding: 0 1rem;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
