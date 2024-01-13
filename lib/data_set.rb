@@ -6,7 +6,7 @@ class DataSet
   end
 
   def data
-    YAML.load(File.read(path), permitted_classes: [Date])
+    YAML.safe_load(File.read(path), permitted_classes: [Date])
   end
 
   def name
