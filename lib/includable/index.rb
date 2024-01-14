@@ -8,7 +8,7 @@ module Includable
       @posts =
         data
           .posts
-          .select { |p| p.fetch("date") > Date.parse("2023-12-01") }
+          .reject { |p| p.fetch("tags", []).include?("noIndex") }
           .map do |p|
             Post.new(p.fetch("title"), p.fetch("url"), p.fetch("date"))
           end

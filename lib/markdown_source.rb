@@ -60,10 +60,9 @@ class MarkdownSource
         when 2
           wip_data[parts.first] = parts.last
         when 1
-          begin
-            date = Date.parse(parts.first)
-            wip_data["date"] = date
-          rescue Date::Error
+          if parts.first.match(/\d\d\d\d-\d\d-\d\d/)
+            wip_data["date"] = Date.parse(parts.first)
+          else
             wip_data["tags"] ||= []
             wip_data["tags"] << parts.first
           end
