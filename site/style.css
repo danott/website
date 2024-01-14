@@ -20,9 +20,3 @@ img {
   max-width: 100%;
   height: auto;
 }
-
-@media (prefers-color-scheme: dark) {
-  html {
-    filter: invert(90%) hue-rotate(25deg);
-  }
-}
