@@ -10,7 +10,11 @@ class RssTarget
   end
 
   def items
-    Build.data.posts.map { |p| PostDataRssItem.new(p) }
+    Build
+      .data
+      .posts
+      .select { |p| p.fetch("date") > Date.new(2023, 12, 1) }
+      .map { |p| PostDataRssItem.new(p) }
   end
 
   def render
