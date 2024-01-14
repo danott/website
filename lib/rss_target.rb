@@ -13,7 +13,7 @@ class RssTarget
     Build
       .data
       .posts
-      .select { |p| p.fetch("date") > Date.new(2023, 12, 1) }
+      .select { |p| p.fetch("date") > Date.parse("2023-12-01") }
       .map { |p| PostDataRssItem.new(p) }
   end
 

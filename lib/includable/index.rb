@@ -6,9 +6,12 @@ module Includable
 
     def initialize(string:, data:)
       @posts =
-        data.posts.map do |p|
-          Post.new(p.fetch("title"), p.fetch("url"), p.fetch("date"))
-        end
+        data
+          .posts
+          .select { |p| p.fetch("date") > Date.parse("2023-12-01") }
+          .map do |p|
+            Post.new(p.fetch("title"), p.fetch("url"), p.fetch("date"))
+          end
     end
 
     def render
