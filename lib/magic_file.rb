@@ -13,7 +13,11 @@ class MagicFile
 
   def content
     if path.match(%r{site/\d\d\d\d/})
-      "<!--Include::PageDefaults-->\n\n" + original_content
+      [
+        "<!--Include::PageDefaults-->",
+        original_content,
+        "<!--Include::PostFooter-->"
+      ].join("\n\n")
     else
       original_content
     end

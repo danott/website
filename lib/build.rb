@@ -39,6 +39,7 @@ class Build
       "DataDump" => Includable::DataDump,
       "Index" => Includable::Index,
       "PageDefaults" => Includable::PageDefaults,
+      "PostFooter" => Includable::PostFooter,
       "SixWords" => Includable::SixWords
     }
   end

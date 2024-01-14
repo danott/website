@@ -23,7 +23,7 @@ module Includable
         <ul>
           <% posts.each do |post| %>
             <li>
-              <a href="<%= post.url %>"><%= post.date %>: <%= post.title %></a>
+              <a href="<%= post.url %>"><%= post.title %></a>
             </li>
           <% end %>
         </ul>

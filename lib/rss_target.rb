@@ -3,6 +3,7 @@ class RssTarget
   AUTHOR = "Dan Ott".freeze
   TITLE = "Dan Ott's RSS Feed".freeze
   URL = "https://danott.website".freeze
+  FIRST_DANOTT_WEBSITE_POST_DATE = Date.parse("2024-01-13")
 
   def write
     File.write(TARGET_PATH, render)
@@ -13,7 +14,7 @@ class RssTarget
     Build
       .data
       .posts
-      .select { |p| p.fetch("date") > Date.parse("2023-12-01") }
+      .select { |p| p.fetch("date") >= FIRST_DANOTT_WEBSITE_POST_DATE }
       .map { |p| PostDataRssItem.new(p) }
   end
 
