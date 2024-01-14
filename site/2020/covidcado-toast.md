@@ -1,4 +1,4 @@
-<!--data 2020-03-18 -->
+<!--data 2020-03-18 #newsletter -->
 
 # Covidcado Toast
 

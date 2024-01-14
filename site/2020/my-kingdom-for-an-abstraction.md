@@ -1,4 +1,4 @@
-<!--data 2020-10-01 -->
+<!--data 2020-10-01 #newsletter -->
 
 # My Kingdom for an Abstraction
 

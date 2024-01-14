@@ -1,4 +1,4 @@
-<!--data 2016-03-19 -->
+<!--data 2016-03-19 #noIndex -->
 
 # Accessible Emoji
 

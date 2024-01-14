@@ -1,4 +1,4 @@
-<!--data 2020-04-08 -->
+<!--data 2020-04-08 #newsletter -->
 
 # Coming up empty
 

@@ -1,4 +1,4 @@
-<!--data 2010-09-27 -->
+<!--data 2010-09-27 #noIndex -->
 
 # Local DB
 

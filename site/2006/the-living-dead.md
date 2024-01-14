@@ -1,4 +1,4 @@
-<!--data 2006-10-15 #jesus -->
+<!--data 2006-10-15 #jesus #noIndex -->
 
 # The Living Dead
 

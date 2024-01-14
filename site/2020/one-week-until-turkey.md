@@ -1,4 +1,4 @@
-<!--data 2020-11-19 -->
+<!--data 2020-11-19 #newsletter -->
 
 # One Week Until Turkey
 

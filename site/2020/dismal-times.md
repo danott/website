@@ -1,4 +1,4 @@
-<!--data 2020-11-05 -->
+<!--data 2020-11-05 #newsletter -->
 
 # Dismal Times
 

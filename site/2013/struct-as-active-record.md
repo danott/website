@@ -1,4 +1,4 @@
-<!--data 2013-06-27 -->
+<!--data 2013-06-27 #noIndex #ruby -->
 
 # Struct as ActiveRecord
 

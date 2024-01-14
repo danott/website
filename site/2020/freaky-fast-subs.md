@@ -1,4 +1,4 @@
-<!--data 2020-05-28 -->
+<!--data 2020-05-28 #newsletter -->
 
 # Freaky Fast Subs
 

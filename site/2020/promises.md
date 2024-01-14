@@ -1,4 +1,4 @@
-<!--data 2020-10-29 -->
+<!--data 2020-10-29 #newsletter -->
 
 # Promises
 

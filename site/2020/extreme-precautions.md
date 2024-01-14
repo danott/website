@@ -1,4 +1,4 @@
-<!--data 2020-09-16 -->
+<!--data 2020-09-16 #newsletter -->
 
 # Extreme Precautions
 

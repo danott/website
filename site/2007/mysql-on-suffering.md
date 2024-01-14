@@ -1,4 +1,4 @@
-<!--data 2007-10-03 -->
+<!--data 2007-10-03 #bible -->
 
 # MySQL on Suffering
 

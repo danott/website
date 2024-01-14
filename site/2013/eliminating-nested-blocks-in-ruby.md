@@ -1,4 +1,4 @@
-<!--data 2013-09-13 -->
+<!--data 2013-09-13 #noIndex -->
 
 # Eliminating nested blocks while looping through Arrays in Ruby
 

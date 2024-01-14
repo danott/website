@@ -1,4 +1,4 @@
-<!--data 2013-06-12 -->
+<!--data 2013-06-12 #noIndex #javascript #ruby -->
 
 # Rails Javascript Testing Using Karma
 

@@ -1,4 +1,4 @@
-<!--data 2013-05-23 -->
+<!--data 2013-05-23 #vim #noIndex -->
 
 # Instant Savings In Vim
 

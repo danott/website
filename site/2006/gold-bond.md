@@ -1,4 +1,4 @@
-<!--data 2006-12-17 #jesus -->
+<!--data 2006-12-17 #jesus #noIndex -->
 
 # Goetta Omelets, Gold Bond, and Circles of Influence
 

@@ -1,4 +1,4 @@
-<!--data 2020-01-16 -->
+<!--data 2020-01-16 #newsletter -->
 
 # Life comes at you pretty fast
 

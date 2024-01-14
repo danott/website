@@ -1,4 +1,4 @@
-<!--data 2020-09-24 -->
+<!--data 2020-09-24 #newsletter -->
 
 # Here's the thing
 

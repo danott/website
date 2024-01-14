@@ -1,4 +1,4 @@
-<!--data 2019-12-04 #food -->
+<!--data 2019-12-04 #recipe -->
 
 # Christmas Milk
 

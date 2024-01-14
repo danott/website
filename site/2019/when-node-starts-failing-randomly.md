@@ -1,4 +1,4 @@
-<!--data 2019-01-04 -->
+<!--data 2019-01-04 #noIndex #node -->
 
 # What I Do When Node Starts Failing Randomly
 

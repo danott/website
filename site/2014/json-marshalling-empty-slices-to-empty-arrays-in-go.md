@@ -1,4 +1,4 @@
-<!--data 2014-06-02 -->
+<!--data 2014-06-02 #noIndex -->
 
 # JSON Marshalling empty slices to empty arrays in Go
 

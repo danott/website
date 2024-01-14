@@ -1,8 +1,8 @@
-<!--data 2024-01-13 #weeknotes #running -->
+<!--data 2024-01-14 #weeknotes #running -->
 
 # Weeknotes: 2024, Week 2
 
-Our giant calendars begin on Monday. Switching from a calendar that begins on Sunday to one that begins on Monday was an experiment. That decision has already cascaded into changing system defaults on iOS and macOS. The week starts on Monday, everywhere. 
+[Our giant calendar](https://www.neuyear.net/collections/monday-first/products/monday-monochrome?variant=44732010168622) begins on Monday. Switching from a calendar that begins on Sunday to one that begins on Monday was an experiment. That decision has already cascaded into changing system defaults on iOS and macOS. The week starts on Monday, everywhere.
 
 It's reminiscent of switching to a 24-hour clock. I've run that configuration at various times of my life. Humans are adaptable. Including me!
 

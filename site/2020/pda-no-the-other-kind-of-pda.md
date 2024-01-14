@@ -1,4 +1,4 @@
-<!--data 2020-11-12 -->
+<!--data 2020-11-12 #newsletter -->
 
 # PDA. No, the other kind of PDA.
 

@@ -20,4 +20,4 @@ Except the children who resist anything green polluting their cheese.
 
 Cutting squares of parchment is the cleanest job.
 It’s vital for easing the transition from peel to steel.
-It’s the only material that winds up in the garbage. </span></p>
+It’s the only material that winds up in the garbage. 

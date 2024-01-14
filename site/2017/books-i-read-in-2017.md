@@ -1,4 +1,4 @@
-<!--data 2017-12-31 -->
+<!--data 2017-12-31 #yearInReview -->
 
 # Books I Read in 2017
 

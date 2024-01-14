@@ -1,4 +1,4 @@
-<!--data 2013-06-20 -->
+<!--data 2013-06-20 #noIndex -->
 
 # Deploying Ember On Rails To Heroku
 
