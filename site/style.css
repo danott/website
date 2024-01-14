@@ -1,13 +1,43 @@
 /* @format */
 
+:root {
+  --color-background: #eaeaea;
+  --color-text: #303030;
+  --color-link: var(--color-text);
+  font-size: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-background: #0e0b03;
+    --color-text: #f2ead3;
+  }
+}
+
+@media (min-width: 40rem) {
+  :root {
+    font-size: 125%;
+  }
+}
+
+html {
+  background-color: var(--color-background);
+  color-scheme: light dark;
+  color: var(--color-text);
+  font-size: var(--font-size);
+  scroll-behavior: smooth;
+}
+
 body {
-  margin: 4rem auto;
-  max-width: 44rem;
   line-height: 1.6;
-  font-family: monospace;
-  font-size: 20px;
-  color: #444;
-  padding: 0 1rem;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding: 4rem 1rem;
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: underline;
 }
 
 h1,
