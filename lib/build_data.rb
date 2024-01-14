@@ -1,8 +1,14 @@
 class BuildData
   attr_reader :targets
+  attr_reader :current_page
 
-  def initialize(targets)
+  def initialize(targets, current_page = nil)
     @targets = targets
+    @current_page = current_page
+  end
+
+  def for_current_page(next_current_page)
+    self.class.new(targets, next_current_page)
   end
 
   def all
