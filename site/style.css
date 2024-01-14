@@ -2,8 +2,9 @@
 
 body {
   margin: 4rem auto;
-  max-width: 40rem;
+  max-width: 44rem;
   line-height: 1.6;
+  font-family: monospace;
   font-size: 20px;
   color: #444;
   padding: 0 1rem;
@@ -18,4 +19,10 @@ h3 {
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    filter: invert(90%) hue-rotate(25deg);
+  }
 }
