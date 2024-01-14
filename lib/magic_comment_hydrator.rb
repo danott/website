@@ -1,10 +1,12 @@
 class MagicCommentHydrator
   attr_reader :content
   attr_reader :includables
+  attr_reader :data
 
-  def initialize(content:, includables:)
+  def initialize(content:, includables:, data:)
     @content = content
     @includables = includables
+    @data = data
   end
 
   def hydrate
@@ -21,27 +23,25 @@ class MagicCommentHydrator
 
     current_magic_comment = next_magic_comment
 
-    delete_at = content.index(current_magic_comment[0])
     insert_at =
-      (
-        if current_magic_comment[1] == "IncludeInHeader"
-          content.index("</head>")
-        else
-          delete_at
-        end
-      )
+      case current_magic_comment[1]
+      when "IncludeInHeader"
+        content.index("</head>")
+      when "Include"
+        content.index(current_magic_comment[0])
+      else
+        fail "Don't know how to handle #{current_magic_comment[1]}"
+      end
 
+    includable, maybe_string = current_magic_comment[2].split(/\s/m, 2)
     replacement =
-      (
-        if current_magic_comment[2].start_with?("Text::")
-          current_magic_comment[2].delete_prefix("Text::")
-        else
-          includables.fetch(current_magic_comment[2]).new.render
-        end
-      )
+      includables
+        .fetch(includable)
+        .new(string: maybe_string.to_s.strip, data: data)
+        .render
 
     next_content =
       content.sub(current_magic_comment[0], "").insert(insert_at, replacement)
-    self.class.new(content: next_content, includables: includables)
+    self.class.new(content: next_content, includables: includables, data: data)
   end
 end

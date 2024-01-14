@@ -12,7 +12,11 @@ class HtmlTarget
 
   def hydrate
     hydrator =
-      MagicCommentHydrator.new(content: content, includables: Build.includables)
+      MagicCommentHydrator.new(
+        content: content,
+        includables: Build.includables,
+        data: Build.data
+      )
     self.class.new(content: hydrator.hydrate.content, path: path, data: data)
   end
 

@@ -1,9 +1,12 @@
 module Includable
   class DataDump
-    def everything
-      Build.data.all.merge(
-        posts_tagged_climbing: Build.data.posts_tagged("climbing")
-      )
+    attr_reader :everything
+
+    def initialize(string:, data:)
+      @everything =
+        data.all.merge(
+          posts_tagged_climbing: Build.data.posts_tagged("climbing")
+        )
     end
 
     def render

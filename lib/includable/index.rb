@@ -1,11 +1,14 @@
 module Includable
   class Index
+    attr_reader :posts
+
     Post = Struct.new(:title, :url, :date)
 
-    def posts
-      Build.data.posts.map do |p|
-        Post.new(p.fetch("title"), p.fetch("url"), p.fetch("date"))
-      end
+    def initialize(string:, data:)
+      @posts =
+        data.posts.map do |p|
+          Post.new(p.fetch("title"), p.fetch("url"), p.fetch("date"))
+        end
     end
 
     def render

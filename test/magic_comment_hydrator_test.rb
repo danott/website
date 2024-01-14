@@ -5,8 +5,8 @@ class MagicCommentHydratorTest < Minitest::Test
         <title>Test</title>
       </head>
       <body>
-        <!--IncludeInHeader::Text:: <meta name="single line text"> -->
-        <!--IncludeInHeader::Text:: 
+        <!--IncludeInHeader::Text <meta name="single line text"> -->
+        <!--IncludeInHeader::Text
           <meta name="multi line text">
         -->
         <!--IncludeInHeader::DummyIntendedForHeader-->
@@ -21,7 +21,11 @@ class MagicCommentHydratorTest < Minitest::Test
     hydrator =
       MagicCommentHydrator.new(
         content: CONTENT,
+        data: {
+          "Fetch this!" => "Return that!"
+        },
         includables: {
+          "Text" => Includable::Text,
           "HydraIncludable" => HydraIncludable,
           "DummyIntendedForInline" => DummyIntendedForInline,
           "DummyIntendedForHeader" => DummyIntendedForHeader
@@ -29,7 +33,7 @@ class MagicCommentHydratorTest < Minitest::Test
       )
     result = hydrator.hydrate
 
-    refute_includes result.content, "<!--IncludeInHeader::Text::"
+    refute_includes result.content, "<!--IncludeInHeader::Text "
     assert_includes result.content, '<meta name="single line text">'
     assert_includes result.content, '<meta name="multi line text">'
 
@@ -38,25 +42,42 @@ class MagicCommentHydratorTest < Minitest::Test
     assert_includes result.content, '<meta name="DummyIntendedForHeader">'
 
     refute_includes result.content, "<!--Include::DummyIntendedForInline-->"
-    assert_includes result.content, "<h1>DummyIntendedForInline</h1>"
+    assert_includes result.content,
+                    "<h1>DummyIntendedForInline Return that!</h1>"
 
     refute_includes result.content, "<!--Include::HydraIncludable-->"
-    assert_equal 2, result.content.scan("<h1>DummyIntendedForInline</h1>").size
+    assert_equal 2,
+                 result
+                   .content
+                   .scan("<h1>DummyIntendedForInline Return that!</h1>")
+                   .size
   end
 
   class DummyIntendedForInline
+    attr_reader :data
+
+    def initialize(string:, data:)
+      @data = data
+    end
+
     def render
-      "<h1>DummyIntendedForInline</h1>"
+      "<h1>DummyIntendedForInline #{data.fetch("Fetch this!")}</h1>"
     end
   end
 
   class DummyIntendedForHeader
+    def initialize(string:, data:)
+    end
+
     def render
       %Q[<meta name="DummyIntendedForHeader">]
     end
   end
 
   class HydraIncludable
+    def initialize(string:, data:)
+    end
+
     def render
       "<!--Include::DummyIntendedForInline-->"
     end

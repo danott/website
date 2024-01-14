@@ -18,23 +18,24 @@ class Build
   end
 
   def dehydrated_sources
-    Source.gather(source_dir)
+    @dehydrated_sources ||= Source.gather(source_dir)
   end
 
   def dehydrated_targets
-    dehydrated_sources.map(&:hydrate)
+    @dehydrated_targets ||= dehydrated_sources.map(&:hydrate)
   end
 
   def hydrated_targets
-    dehydrated_targets.map(&:hydrate) + [RssTarget.new]
+    @hydrated_targets ||= dehydrated_targets.map(&:hydrate) + [RssTarget.new]
   end
 
   def data
-    BuildData.new(dehydrated_targets)
+    @data ||= BuildData.new(dehydrated_targets)
   end
 
   def includables
-    {
+    @includable ||= {
+      "Text" => Includable::Text,
       "DataDump" => Includable::DataDump,
       "Index" => Includable::Index,
       "PageDefaults" => Includable::PageDefaults,

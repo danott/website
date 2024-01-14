@@ -1,15 +1,17 @@
 module Includable
   class SixWords
+    attr_reader :entries
+
     Entry = Struct.new(:date, :words)
 
-    def entries
-      Build
-        .data
-        .sets
-        .fetch("six_words")
-        .map { |e| Entry.new(e.fetch("date"), e.fetch("words")) }
-        .sort_by(&:date)
-        .reverse
+    def initialize(string:, data:)
+      @entries =
+        data
+          .sets
+          .fetch("six_words")
+          .map { |e| Entry.new(e.fetch("date"), e.fetch("words")) }
+          .sort_by(&:date)
+          .reverse
     end
 
     def render
