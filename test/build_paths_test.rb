@@ -16,4 +16,15 @@ class BuildPathsTest < Minitest::Test
     assert_equal("_site/path/to/another-thing/index.html", dummy.target_path)
     assert_equal("/path/to/another-thing/", dummy.url)
   end
+
+  def test_duplicate_identifier_path
+    dummy = Dummy.new("site/path/to/another-thing/another-thing.md")
+    assert_equal("site/path/to/another-thing/another-thing.md", dummy.path)
+    assert_equal(
+      "site/path/to/another-thing/another-thing.md",
+      dummy.source_path
+    )
+    assert_equal("_site/path/to/another-thing/index.html", dummy.target_path)
+    assert_equal("/path/to/another-thing/", dummy.url)
+  end
 end

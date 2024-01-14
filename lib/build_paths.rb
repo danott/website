@@ -6,10 +6,16 @@ module BuildPaths
   end
 
   def target_path
-    path
-      .sub(Build.source_dir, Build.target_dir)
-      .sub(".md", "/index.html")
-      .sub("/index/index.html", "/index.html")
+    extname = File.extname(path)
+    segments =
+      path
+        .sub(Build.source_dir, Build.target_dir)
+        .delete_suffix(extname)
+        .split("/")
+    segments.pop if segments.last(2).uniq.size == 1
+    segments.pop if segments.last == "index"
+    segments.push("index.html")
+    segments.join("/")
   end
 
   def url
