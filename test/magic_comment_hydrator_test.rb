@@ -13,6 +13,14 @@ class MagicCommentHydratorTest < Minitest::Test
         <h1>Test</h1>
         <!--Include::DummyIntendedForInline-->
         <!--Include::HydraIncludable-->
+
+        <h2><eval-ruby>2 + 2</eval-ruby></h2>
+
+        <include-in-header>
+          <meta name="include-in-header">
+          <eval-ruby>'<meta name="eval-ruby"' + ">"</eval-ruby>
+        </include-in-header>
+
       </body>
     </html>
   HTML
@@ -51,6 +59,16 @@ class MagicCommentHydratorTest < Minitest::Test
                    .content
                    .scan("<h1>DummyIntendedForInline Return that!</h1>")
                    .size
+
+    refute_includes result.content, "<eval-ruby>2 + 2</eval-ruby>"
+    assert_includes result.content, "<h2>4</h2>"
+
+    refute_includes result.content, "<include-in-header>"
+    assert_includes result.content, '<meta name="include-in-header">'
+    assert_includes result.content, '<meta name="eval-ruby">'
+    assert result.content.index('name="eval-ruby"') <
+             result.content.index("</head>"),
+           "Should actually be injected into the head!"
   end
 
   class DummyIntendedForInline
