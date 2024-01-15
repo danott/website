@@ -1,4 +1,4 @@
-<!--data 2019-01-04 #noIndex #node -->
+<template data-parse>2019-01-04 #noIndex #node</template>
 
 # What I Do When Node Starts Failing Randomly
 

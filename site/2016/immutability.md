@@ -1,4 +1,4 @@
-<!--data 2016-04-26 #medium -->
+<template data-parse>2016-04-26 #medium</template>
 
 # Immutability
 

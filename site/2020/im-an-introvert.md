@@ -1,4 +1,4 @@
-<!--data 2020-03-04 #newsletter -->
+<template data-parse>2020-03-04 #newsletter</template>
 
 # "I'm an introvert"
 

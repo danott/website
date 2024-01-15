@@ -1,4 +1,4 @@
-<!--data 2020-01-13 #ruby #rails -->
+<template data-parse>2020-01-13 #ruby #rails</template>
 
 # Seeding a Rails Development Environment with Test Fixtures
 

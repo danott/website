@@ -1,4 +1,4 @@
-<!--data 2020-10-29 #newsletter -->
+<template data-parse>2020-10-29 #newsletter</template>
 
 # Promises
 

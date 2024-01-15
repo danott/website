@@ -1,4 +1,4 @@
-<!--data 2020-10-15 -->
+<template data-parse>2020-10-15</template>
 
 # Sabbatical
 

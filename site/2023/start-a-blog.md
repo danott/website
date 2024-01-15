@@ -1,4 +1,4 @@
-<!--data 2023-01-22 -->
+<template data-parse>2023-01-22</template>
 
 # Start a blog
 

@@ -1,4 +1,4 @@
-<!--data 2022-07-28 -->
+<template data-parse>2022-07-28</template>
 
 # Leadership failures
 

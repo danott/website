@@ -1,4 +1,4 @@
-<!--data 2022-09-14 -->
+<template data-parse>2022-09-14</template>
 
 # My Bookmarking Bookmarklet
 

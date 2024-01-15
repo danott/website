@@ -1,4 +1,4 @@
-<!--data 2023-07-10 -->
+<template data-parse>2023-07-10</template>
 
 # Do Repeat Yourself
 

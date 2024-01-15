@@ -1,4 +1,4 @@
-<!--data 2022-08-14 #ruby -->
+<template data-parse>2022-08-14 #ruby</template>
 
 # Simplification
 

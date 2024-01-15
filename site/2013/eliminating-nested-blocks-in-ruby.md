@@ -1,4 +1,4 @@
-<!--data 2013-09-13 #noIndex -->
+<template data-parse>2013-09-13 #noIndex</template>
 
 # Eliminating nested blocks while looping through Arrays in Ruby
 

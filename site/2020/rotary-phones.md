@@ -1,4 +1,4 @@
-<!--data 2020-10-07 #newsletter -->
+<template data-parse>2020-10-07 #newsletter</template>
 
 # The War on Tumblers
 

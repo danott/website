@@ -1,4 +1,4 @@
-<!--data 2020-02-28 -->
+<template data-parse>2020-02-28</template>
 
 # Pizza Night
 

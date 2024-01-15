@@ -22,7 +22,7 @@ I've implmented a minimal set of magic comments. I'm leaning into the idea that 
 
 Magic comments are deleted/replaced in the final output.
 
-- `<!--data -->` is processed during `Source#hydrate`. It has to be processed early because every call to `Target#hydrate` wants access to all the site data across all sources/targets.
+- `<template data-parse></template>` is processed during `Source#hydrate`. It has to be processed early because every call to `Target#hydrate` wants access to all the site data across all sources/targets.
 - `<!--IncludeInHeader::Text:: [any text value] -->` injects `[any text value]` into the document head.
 - `<!--IncludeInHeader::RegisteredIncludable-->` will look up `RegisteredIncludable`, render it, and inject the result into the document head.
 - `<!--Include::RegisteredIncludable-->` will look up `RegisteredIncludable`, render it, and inject the result in palce of the comment.

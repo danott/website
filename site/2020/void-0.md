@@ -1,4 +1,4 @@
-<!--data 2020-03-13 -->
+<template data-parse>2020-03-13</template>
 
 # VOID-0
 

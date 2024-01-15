@@ -1,4 +1,4 @@
-<!--data 2019-02-22 #jesus -->
+<template data-parse>2019-02-22 #jesus</template>
 
 # Free to Ignore
 

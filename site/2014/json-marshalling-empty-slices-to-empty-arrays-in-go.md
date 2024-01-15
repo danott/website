@@ -1,4 +1,4 @@
-<!--data 2014-06-02 #noIndex -->
+<template data-parse>2014-06-02 #noIndex</template>
 
 # JSON Marshalling empty slices to empty arrays in Go
 

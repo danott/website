@@ -1,4 +1,4 @@
-<!--data 2013-05-23 #vim #noIndex -->
+<template data-parse>2013-05-23 #vim #noIndex</template>
 
 # Instant Savings In Vim
 

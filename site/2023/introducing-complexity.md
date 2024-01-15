@@ -1,4 +1,4 @@
-<!--data 2023-09-04 -->
+<template data-parse>2023-09-04</template>
 
 # Introducing Complexity
 

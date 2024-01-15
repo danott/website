@@ -1,4 +1,4 @@
-<!--data 2023-12-31 #review #climbing #running #books -->
+<template data-parse>2023-12-31 #review #climbing #running #books</template>
 
 # 2023: Year in Review
 

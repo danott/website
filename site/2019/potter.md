@@ -1,4 +1,4 @@
-<!--data 2019-12-27 #newsletter -->
+<template data-parse>2019-12-27 #newsletter</template>
 
 # Potter
 

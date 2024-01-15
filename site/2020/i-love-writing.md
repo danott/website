@@ -1,4 +1,4 @@
-<!--data 2020-12-17 -->
+<template data-parse>2020-12-17</template>
 
 # I Love Writing
 

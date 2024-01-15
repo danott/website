@@ -1,4 +1,4 @@
-<!--data 2020-02-06 #newsletter -->
+<template data-parse>2020-02-06 #newsletter</template>
 
 # Strait & Narrow
 

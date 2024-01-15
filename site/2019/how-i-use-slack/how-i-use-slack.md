@@ -1,4 +1,4 @@
-<!--data 2019-01-07 #slack -->
+<template data-parse>2019-01-07 #slack</template>
 
 # How I use Slack
 

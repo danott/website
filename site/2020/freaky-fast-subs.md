@@ -1,4 +1,4 @@
-<!--data 2020-05-28 #newsletter -->
+<template data-parse>2020-05-28 #newsletter</template>
 
 # Freaky Fast Subs
 

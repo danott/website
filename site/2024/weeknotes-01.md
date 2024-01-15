@@ -1,4 +1,4 @@
-<!--data 2024-01-07 #climbing #running #lifting #weeknotes -->
+<template data-parse>2024-01-07 #climbing #running #lifting #weeknotes</template>
 
 # Weeknotes: 2024, Week 1
 

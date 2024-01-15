@@ -1,4 +1,4 @@
-<!--data 2007-10-03 #bible -->
+<template data-parse>2007-10-03 #bible</template>
 
 # MySQL on Suffering
 

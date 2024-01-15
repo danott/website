@@ -1,4 +1,4 @@
-<!--data 2020-09-24 #newsletter -->
+<template data-parse>2020-09-24 #newsletter</template>
 
 # Here's the thing
 

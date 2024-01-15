@@ -1,4 +1,4 @@
-<!--data 2019-12-04 #recipe -->
+<template data-parse>2019-12-04 #recipe</template>
 
 # Christmas Milk
 

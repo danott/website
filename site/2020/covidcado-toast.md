@@ -1,4 +1,4 @@
-<!--data 2020-03-18 #newsletter -->
+<template data-parse>2020-03-18 #newsletter</template>
 
 # Covidcado Toast
 

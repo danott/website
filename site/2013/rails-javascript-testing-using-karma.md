@@ -1,4 +1,4 @@
-<!--data 2013-06-12 #noIndex #javascript #ruby -->
+<template data-parse>2013-06-12 #noIndex #javascript #ruby</template>
 
 # Rails Javascript Testing Using Karma
 

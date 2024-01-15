@@ -1,4 +1,4 @@
-<!--data 2023-07-06 -->
+<template data-parse>2023-07-06</template>
 
 # The Arboretum 
 

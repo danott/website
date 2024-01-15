@@ -1,4 +1,4 @@
-<!--data 2019-01-18 #git -->
+<template data-parse>2019-01-18 #git</template>
 
 # I Built a Hook
 

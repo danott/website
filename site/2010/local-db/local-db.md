@@ -1,4 +1,4 @@
-<!--data 2010-09-27 #noIndex -->
+<template data-parse>2010-09-27 #noIndex</template>
 
 # Local DB
 

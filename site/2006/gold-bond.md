@@ -1,4 +1,4 @@
-<!--data 2006-12-17 #jesus #noIndex -->
+<template data-parse>2006-12-17 #jesus #noIndex</template>
 
 # Goetta Omelets, Gold Bond, and Circles of Influence
 

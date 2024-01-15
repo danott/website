@@ -23,7 +23,7 @@ module Temp
     def data_line
       wip = content.start_with?(/#[a-z]/) ? content.lines.first : ""
       wip = [date_string, wip].join(" ").strip
-      "<!--data #{wip} -->\n\n"
+      "<template data-parse>#{wip}</template>\n\n"
     end
 
     def next_content

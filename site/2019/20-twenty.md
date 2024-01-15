@@ -1,4 +1,4 @@
-<!--data 2019-12-31 #poetry -->
+<template data-parse>2019-12-31 #poetry</template>
 
 # 20 Twenty
 

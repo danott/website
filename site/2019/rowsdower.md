@@ -1,4 +1,4 @@
-<!--data 2019-11-04 #noIndex -->
+<template data-parse>2019-11-04 #noIndex</template>
 
 # Rowsdower!
 

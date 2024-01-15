@@ -1,4 +1,4 @@
-<!--data 2019-10-05 #react #ruby #rails -->
+<template data-parse>2019-10-05 #react #ruby #rails</template>
 
 # Server-generated React Responses
 

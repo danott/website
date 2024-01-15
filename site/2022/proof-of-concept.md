@@ -1,4 +1,4 @@
-<!--data 2022-07-15 -->
+<template data-parse>2022-07-15</template>
 
 # Proof of concept
 

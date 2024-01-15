@@ -1,4 +1,4 @@
-<!--data 2023-01-25 -->
+<template data-parse>2023-01-25</template>
 
 # Hope for Ai Future
 

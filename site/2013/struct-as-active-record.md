@@ -1,4 +1,4 @@
-<!--data 2013-06-27 #noIndex #ruby -->
+<template data-parse>2013-06-27 #noIndex #ruby</template>
 
 # Struct as ActiveRecord
 

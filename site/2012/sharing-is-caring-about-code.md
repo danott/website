@@ -1,4 +1,4 @@
-<!--data 2012-01-20 #javascript #noIndex -->
+<template data-parse>2012-01-20 #javascript #noIndex</template>
 
 # Sharing is Caring About Code
 

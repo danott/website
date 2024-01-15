@@ -1,4 +1,4 @@
-<!--data 2017-08-09 #medium -->
+<template data-parse>2017-08-09 #medium</template>
 
 # Reduce, Reuse, Recycle
 

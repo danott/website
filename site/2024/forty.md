@@ -1,4 +1,4 @@
-<!--data 2024-01-12 #birthday -->
+<template data-parse>2024-01-12 #birthday</template>
 
 # Forty 
 

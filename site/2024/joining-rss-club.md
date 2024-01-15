@@ -1,4 +1,4 @@
-<!--data 2024-01-14 #noIndex #rssClub -->
+<template data-parse>2024-01-14 #noIndex #rssClub</template>
 
 # Welcome to RSS Club!
 
@@ -16,13 +16,13 @@ I've had a few false starts on sharing the source to my website. I had an epipha
 
 My goal isn’t to build a static site generator. My goal is to build my website. How it is generated does not have to be generic. Or elegant. Or transferable. Or scaleable. Or use established patterns. I've moved the focus from building a franchise concept restaurant to making a home cooked meal. 
 
-YAML frontmatter? Nope. I use an HTML comment. It looks like this:
+YAML frontmatter? Nope. I use an HTML template. It looks like this:
 
 ```html
-<!--data 2024-01-14 #noIndex #rssClub -->
+<template data-parse>2024-01-14 #noIndex #rssClub</template>
 ```
 
-This is great! The tags are present but it is clear that they are not part of the to-be-rendered content. This was an iteration on top of the [simplification](/2022/simplification/) of ditching YAML frontmatter in 2022. 
+This is great! [iA Writer](https://ia.net/writer) finds these tags. And it is clear while writing/previewing that they are not part of the to-be-rendered content. This was an iteration on top of the [simplification](/2022/simplification/) of ditching YAML frontmatter in 2022.
 
 Nested layouts in ERB, Liquid, Nunjucks, or similar?  Nope.
 I have one template that creates wrapping HTML. It's the default template provided by `kramdown`. No Russian-doll layouts necessary. I use "magic comments" to compose pages. "Prefer composition over inheritance." I'm gonna give it a shot.

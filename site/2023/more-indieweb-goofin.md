@@ -1,4 +1,4 @@
-<!--data 2023-01-15 #indieweb #programming -->
+<template data-parse>2023-01-15 #indieweb #programming</template>
 
 # More Indieweb Goofin'
 

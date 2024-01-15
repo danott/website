@@ -1,4 +1,4 @@
-<!--data 2019-09-30 #react -->
+<template data-parse>2019-09-30 #react</template>
 
 # Using React Context for Suspenseful Data Fetching
 

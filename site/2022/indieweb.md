@@ -1,4 +1,4 @@
-<!--data 2022-11-08 -->
+<template data-parse>2022-11-08</template>
 
 # Looking for an Indieweb Failure
 

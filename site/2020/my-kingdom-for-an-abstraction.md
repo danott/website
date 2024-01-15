@@ -1,4 +1,4 @@
-<!--data 2020-10-01 #newsletter -->
+<template data-parse>2020-10-01 #newsletter</template>
 
 # My Kingdom for an Abstraction
 

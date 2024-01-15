@@ -1,4 +1,4 @@
-<!--data 2022-05-26 -->
+<template data-parse>2022-05-26</template>
 
 # Action and ideation
 

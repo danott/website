@@ -1,4 +1,4 @@
-<!--data 2023-07-07 -->
+<template data-parse>2023-07-07</template>
 
 # I will benefit from being wrong in public
 

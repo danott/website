@@ -1,4 +1,4 @@
-<!--data 2010-03-11 #yearInReview #noIndex -->
+<template data-parse>2010-03-11 #yearInReview #noIndex</template>
 
 # 2009: Year in Review
 

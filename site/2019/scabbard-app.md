@@ -1,4 +1,4 @@
-<!--data 2019-11-09 #react #netlify -->
+<template data-parse>2019-11-09 #react #netlify</template>
 
 # Good Enough to Ship
 

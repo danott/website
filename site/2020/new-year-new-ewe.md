@@ -1,4 +1,4 @@
-<!--data 2020-01-01 #newsletter -->
+<template data-parse>2020-01-01 #newsletter</template>
 
 # New Year, New Ewe
 

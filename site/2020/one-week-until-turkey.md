@@ -1,4 +1,4 @@
-<!--data 2020-11-19 #newsletter -->
+<template data-parse>2020-11-19 #newsletter</template>
 
 # One Week Until Turkey
 

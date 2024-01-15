@@ -1,4 +1,4 @@
-<!--data 2020-12-11 -->
+<template data-parse>2020-12-11</template>
 
 # Starting over
 

@@ -1,4 +1,4 @@
-<!--data 2020-12-22 #noIndex -->
+<template data-parse>2020-12-22 #noIndex</template>
 
 # Preparing for launch
 

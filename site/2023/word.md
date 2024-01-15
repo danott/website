@@ -1,4 +1,4 @@
-<!--data 2023-11-17 -->
+<template data-parse>2023-11-17</template>
 
 # What you’ve seen is what you’ll give
 

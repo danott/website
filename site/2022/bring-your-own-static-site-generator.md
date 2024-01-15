@@ -1,4 +1,4 @@
-<!--data 2022-07-11 -->
+<template data-parse>2022-07-11</template>
 
 # Bring your own static site generator
 

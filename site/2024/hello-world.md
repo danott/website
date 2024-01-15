@@ -1,4 +1,4 @@
-<!--data 2024-01-13 -->
+<template data-parse>2024-01-13</template>
 
 # Hello World!
 

@@ -1,4 +1,4 @@
-<!--data 2017-12-31 #yearInReview -->
+<template data-parse>2017-12-31 #yearInReview</template>
 
 # Books I Read in 2017
 

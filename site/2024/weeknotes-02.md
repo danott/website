@@ -1,4 +1,4 @@
-<!--data 2024-01-14 #weeknotes #running -->
+<template data-parse>2024-01-14 #weeknotes #running</template>
 
 # Weeknotes: 2024, Week 2
 

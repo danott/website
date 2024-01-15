@@ -1,4 +1,4 @@
-<!--data 2020-05-14 #newsletter -->
+<template data-parse>2020-05-14 #newsletter</template>
 
 # The 100% Correct Integration of Technology
 

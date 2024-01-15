@@ -1,4 +1,4 @@
-<!--data 2023-01-19 -->
+<template data-parse>2023-01-19</template>
 
 # Thirty-Nine
 

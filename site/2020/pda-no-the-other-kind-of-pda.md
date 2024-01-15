@@ -1,4 +1,4 @@
-<!--data 2020-11-12 #newsletter -->
+<template data-parse>2020-11-12 #newsletter</template>
 
 # PDA. No, the other kind of PDA.
 

@@ -1,4 +1,4 @@
-<!--data 2020-12-22 -->
+<template data-parse>2020-12-22</template>
 
 # Immutability, Meet Premature Abstraction
 

@@ -1,4 +1,4 @@
-<!--data 2021-09-16 #weeknotes -->
+<template data-parse>2021-09-16 #weeknotes</template>
 
 # Recently
 

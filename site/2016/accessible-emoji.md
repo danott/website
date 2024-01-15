@@ -1,4 +1,4 @@
-<!--data 2016-03-19 #noIndex -->
+<template data-parse>2016-03-19 #noIndex</template>
 
 # Accessible Emoji
 

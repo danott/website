@@ -1,4 +1,4 @@
-<!--data 2019-12-17 -->
+<template data-parse>2019-12-17</template>
 
 # Deploying Rails to Netlify
 

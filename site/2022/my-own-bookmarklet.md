@@ -1,4 +1,4 @@
-<!--data 2022-07-27 -->
+<template data-parse>2022-07-27</template>
 
 # I kicked this off with a bookmarklet of my own design!
 

@@ -1,4 +1,4 @@
-<!--data 2019-07-15 #deconstructConf -->
+<template data-parse>2019-07-15 #deconstructConf</template>
 
 # Deconstruct Conference 2019
 

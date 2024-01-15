@@ -1,4 +1,4 @@
-<!--data 2022-10-13 -->
+<template data-parse>2022-10-13</template>
 
 # Action Begets Action
 

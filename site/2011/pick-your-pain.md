@@ -1,4 +1,4 @@
-<!--data 2011-07-16 #jesus #bible #noIndex -->
+<template data-parse>2011-07-16 #jesus #bible #noIndex</template>
 
 # Pick Your Pain
 

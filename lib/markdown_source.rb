@@ -30,7 +30,7 @@ class MarkdownSource
   end
 
   def hydrate_data_comment(content, data)
-    data_regex = /<!--data(.*?)-->/m
+    data_regex = %r{<template data-parse.*?>(.*?)</template>}m
 
     if match = content.match(data_regex)
       data.merge! parse_plaintext_data_line(match[1])

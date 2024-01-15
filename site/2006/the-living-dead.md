@@ -1,4 +1,4 @@
-<!--data 2006-10-15 #jesus #noIndex -->
+<template data-parse>2006-10-15 #jesus #noIndex</template>
 
 # The Living Dead
 

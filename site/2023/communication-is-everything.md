@@ -1,4 +1,4 @@
-<!--data 2023-08-04 -->
+<template data-parse>2023-08-04</template>
 
 # Communication is everything
 

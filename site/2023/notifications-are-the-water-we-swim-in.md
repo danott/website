@@ -1,4 +1,4 @@
-<!--data 2023-02-26 -->
+<template data-parse>2023-02-26</template>
 
 # Notifications are the water we swim in
 

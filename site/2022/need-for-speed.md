@@ -1,4 +1,4 @@
-<!--data 2022-08-10 #ruby #pandoc #kramdown #netlify -->
+<template data-parse>2022-08-10 #ruby #pandoc #kramdown #netlify</template>
 
 # Need for Speed
 

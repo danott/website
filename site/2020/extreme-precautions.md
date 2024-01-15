@@ -1,4 +1,4 @@
-<!--data 2020-09-16 #newsletter -->
+<template data-parse>2020-09-16 #newsletter</template>
 
 # Extreme Precautions
 

@@ -1,4 +1,4 @@
-<!--data 2020-06-04 -->
+<template data-parse>2020-06-04</template>
 
 # Anti-Racist
 

@@ -1,4 +1,4 @@
-<!--data 2020-10-22 #newsletter -->
+<template data-parse>2020-10-22 #newsletter</template>
 
 # Fish Hands
 

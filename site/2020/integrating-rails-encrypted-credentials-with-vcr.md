@@ -1,4 +1,4 @@
-<!--data 2020-01-02 #ruby #rails -->
+<template data-parse>2020-01-02 #ruby #rails</template>
 
 # Integrating Rails Encrypted Credentials with VCR
 

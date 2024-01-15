@@ -1,4 +1,4 @@
-<!--data 2023-01-23 #ideas #indieweb #micropub -->
+<template data-parse>2023-01-23 #ideas #indieweb #micropub</template>
 
 # Planning a Feature
 

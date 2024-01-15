@@ -1,4 +1,4 @@
-<!--data 2013-06-20 #noIndex -->
+<template data-parse>2013-06-20 #noIndex</template>
 
 # Deploying Ember On Rails To Heroku
 

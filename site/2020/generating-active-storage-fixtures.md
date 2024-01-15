@@ -1,4 +1,4 @@
-<!--data 2020-01-17 #ruby #rails -->
+<template data-parse>2020-01-17 #ruby #rails</template>
 
 # Generating ActiveStorage Fixtures
 

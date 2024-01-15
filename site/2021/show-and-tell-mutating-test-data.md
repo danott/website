@@ -1,4 +1,4 @@
-<!--data 2021-10-07 #ruby -->
+<template data-parse>2021-10-07 #ruby</template>
 
 # How I write to readonly databases in tests
 

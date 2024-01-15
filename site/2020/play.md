@@ -1,4 +1,4 @@
-<!--data 2020-04-21 #newsletter -->
+<template data-parse>2020-04-21 #newsletter</template>
 
 # Play
 

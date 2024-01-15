@@ -1,4 +1,4 @@
-<!--data 2020-11-05 #newsletter -->
+<template data-parse>2020-11-05 #newsletter</template>
 
 # Dismal Times
 
