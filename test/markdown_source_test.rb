@@ -15,18 +15,18 @@ class MarkdownSourceTest < Minitest::Test
     assert_equal PLAINTEXT, original_source.content
     assert_equal "site/dummy.md", original_source.path
 
-    hydrated_source = original_source.hydrate
+    html_target = original_source.to_target
 
     # Avoid mutation of the original source. Generate new instances instead
     assert_equal PLAINTEXT, original_source.content
     assert_equal "site/dummy.md", original_source.path
 
     # Test hydrated source
-    refute_equal PLAINTEXT, hydrated_source.content, "becomes html"
-    refute_includes hydrated_source.content,
+    refute_equal PLAINTEXT, html_target.content, "becomes html"
+    refute_includes html_target.content,
                     "<template data-parse",
                     "data comment has been hydrated into Source#data"
-    assert_equal "site/dummy.md", hydrated_source.path, "unchanged in hydration"
+    assert_equal "site/dummy.md", html_target.path, "unchanged in hydration"
 
     expected_data = {
       "date" => Date.parse("2024-01-01"),
@@ -38,7 +38,7 @@ class MarkdownSourceTest < Minitest::Test
 
     expected_data.each do |key, value|
       assert_equal value,
-                   hydrated_source.data[key],
+                   html_target.data[key],
                    "data in #{key} does not match!"
     end
   end

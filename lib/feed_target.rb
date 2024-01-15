@@ -5,6 +5,10 @@ class FeedTarget
   URL = "https://danott.website".freeze
   FIRST_DANOTT_WEBSITE_POST_DATE = Date.parse("2024-01-13")
 
+  def to_target
+    self
+  end
+
   def hydrate
     self
   end

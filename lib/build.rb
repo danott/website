@@ -21,12 +21,12 @@ class Build
     "data"
   end
 
-  def dehydrated_sources
-    @dehydrated_sources ||= Source.gather(source_dir)
+  def sources
+    @sources ||= Source.gather(source_dir)
   end
 
   def dehydrated_targets
-    @dehydrated_targets ||= dehydrated_sources.map(&:hydrate)
+    @dehydrated_targets ||= sources.map(&:to_target)
   end
 
   def hydrated_targets

@@ -5,12 +5,16 @@ class NoopSource
     @path = path
   end
 
-  def write
-    puts "NoopSource#write: #{path}"
+  def to_target
     self
   end
 
   def hydrate
+    self
+  end
+
+  def write
+    puts "NoopSource#write: #{path}"
     self
   end
 end

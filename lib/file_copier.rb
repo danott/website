@@ -5,13 +5,17 @@ class FileCopier
     @path = path
   end
 
-  def write
-    FileUtils.mkdir_p(File.dirname(target_path))
-    FileUtils.cp(path, target_path)
+  def to_target
+    self
   end
 
   def hydrate
     self
+  end
+
+  def write
+    FileUtils.mkdir_p(File.dirname(target_path))
+    FileUtils.cp(path, target_path)
   end
 
   def target_path

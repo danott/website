@@ -8,12 +8,11 @@ class MarkdownSource
     @path = path
   end
 
-  def hydrate
+  def to_target
     next_content =
       Kramdown::Document.new(content, kramdown_options).to_html.strip
-    data = {}
-    next_content, data = hydrate_data_comment(next_content, data)
-    next_content, data = hydrate_title_data(next_content, data)
+    next_content, data = hydrate_html_template_data(next_content)
+    data = data.merge(infer_title_data(next_content))
     HtmlTarget.new(path: path, content: next_content, data: data)
   end
 
@@ -29,25 +28,26 @@ class MarkdownSource
     }
   end
 
-  def hydrate_data_comment(content, data)
+  def hydrate_html_template_data(content)
     data_regex = %r{<template data-parse.*?>(.*?)</template>}m
 
     if match = content.match(data_regex)
-      data.merge! parse_plaintext_data_line(match[1])
+      data = parse_plaintext_data_line(match[1])
       content = content.sub(match[0], "")
+      [content, data]
+    else
+      [content, {}]
     end
-
-    [content, data]
   end
 
-  def hydrate_title_data(content, data)
+  def infer_title_data(content)
     title_regex = %r{<title>(.*?)</title>}m
 
     if match = content.match(title_regex)
-      data.merge!("title" => match[1].strip)
+      { "title" => match[1].strip }
+    else
+      {}
     end
-
-    [content, data]
   end
 
   def parse_plaintext_data_line(line)
