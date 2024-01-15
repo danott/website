@@ -4,9 +4,10 @@ module Includable
 
     Post = Struct.new(:title, :url, :date)
 
-    def initialize(string:, data:)
+    def initialize
       @posts =
-        data
+        Build
+          .data
           .posts
           .reject { |p| p.fetch("tags", []).include?("noIndex") }
           .map do |p|
@@ -14,7 +15,7 @@ module Includable
           end
     end
 
-    def render
+    def to_s
       ERB.new(template).result_with_hash({ "posts" => posts })
     end
 

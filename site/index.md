@@ -1,4 +1,4 @@
-<eval-ruby>Includable::PageDefaults.new(string: nil, data: nil).render</eval-ruby>
+<eval-ruby>Includable::PAGE_DEFAULTS</eval-ruby>
 
 # 👨‍💻 danott.website
 
@@ -10,5 +10,5 @@ You can subscribe to [Dan Ott's Website RSS Feed](/feed.xml).
 Here's a list of posts I've written in reverse chronological order.
 
 <eval-ruby>
-  Includable::Index.new(string: nil, data: Build.data).render
+  Includable::Index.new
 </eval-ruby>

@@ -1,4 +1,4 @@
-<eval-ruby>Includable::PageDefaults.new(string: nil, data: nil).render</eval-ruby>
+<eval-ruby>Includable::PAGE_DEFAULTS</eval-ruby>
 
 # Six Words
 
@@ -10,5 +10,5 @@ I've decided to try it again.
 I'll share when I feel compelled.
 
 <eval-ruby>
-  Includable::SixWords.new(string: nil, data: Build.data).render
+  Includable::SixWords.new
 </eval-ruby>

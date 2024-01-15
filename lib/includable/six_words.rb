@@ -4,9 +4,10 @@ module Includable
 
     Entry = Struct.new(:date, :words)
 
-    def initialize(string:, data:)
+    def initialize
       @entries =
-        data
+        Build
+          .data
           .sets
           .fetch("six_words")
           .map { |e| Entry.new(e.fetch("date"), e.fetch("words")) }
@@ -14,7 +15,7 @@ module Includable
           .reverse
     end
 
-    def render
+    def to_s
       ERB.new(template).result_with_hash({ entries: entries })
     end
 

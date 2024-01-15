@@ -2,11 +2,11 @@ module Includable
   class PostFooter
     attr_reader :data
 
-    def initialize(string:, data:)
+    def initialize(data:)
       @data = data
     end
 
-    def render
+    def to_s
       ERB.new(template).result_with_hash(date: data.current_page.fetch("date"))
     end
 
