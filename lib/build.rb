@@ -34,7 +34,7 @@ class Build
   end
 
   def includables
-    @includable ||= {
+    @includables ||= {
       "Text" => Includable::Text,
       "DataDump" => Includable::DataDump,
       "Index" => Includable::Index,
