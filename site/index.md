@@ -1,4 +1,4 @@
-<!--Include::PageDefaults-->
+<eval-ruby>Includable::PageDefaults.new(string: nil, data: nil).render</eval-ruby>
 
 # 👨‍💻 danott.website
 
@@ -9,7 +9,6 @@ That's why I am hosting it at `danott.website`.
 You can subscribe to [Dan Ott's Website RSS Feed](/feed.xml).
 Here's a list of posts I've written in reverse chronological order.
 
-<!--Include::Index-->
 <eval-ruby>
-  Includable::Index.new(string: nil, data: Build.data)
+  Includable::Index.new(string: nil, data: Build.data).render
 </eval-ruby>

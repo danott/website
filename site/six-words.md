@@ -1,4 +1,4 @@
-<!--Include::PageDefaults-->
+<eval-ruby>Includable::PageDefaults.new(string: nil, data: nil).render</eval-ruby>
 
 # Six Words
 
@@ -9,4 +9,6 @@ This habit offered consistency and constraints.
 I've decided to try it again.
 I'll share when I feel compelled.
 
-<!--Include::SixWords-->
+<eval-ruby>
+  Includable::SixWords.new(string: nil, data: Build.data).render
+</eval-ruby>

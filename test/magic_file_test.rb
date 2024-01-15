@@ -12,6 +12,6 @@ class MagicFileTest < Minitest::Test
     refute_equal content, magic_content
     assert_operator magic_content,
                     :starts_with?,
-                    "<!--Include::PageDefaults-->\n\n"
+                    "<eval-ruby>Includable::PageDefaults.new(string: nil, data: nil).render</eval-ruby>"
   end
 end

@@ -13,11 +13,11 @@ class MagicFile
 
   def content
     if path.match(%r{site/\d\d\d\d/})
-      [
-        "<!--Include::PageDefaults-->",
-        original_content,
-        "<!--Include::PostFooter-->"
-      ].join("\n\n")
+      <<~HTML
+        <eval-ruby>Includable::PageDefaults.new(string: nil, data: nil).render</eval-ruby>
+        #{original_content}
+        <eval-ruby>Includable::PostFooter.new(string: nil, data: self.data).render</eval-ruby>
+      HTML
     else
       original_content
     end

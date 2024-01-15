@@ -2,4 +2,6 @@
 
 This is my page for debugging my build
 
-<!--Include::DataDump-->
+<eval-ruby>
+  Includable::DataDump.new(string: nil, data: Build.data).render
+</eval-ruby>

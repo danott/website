@@ -5,7 +5,7 @@ module Includable
 
     def render
       <<~HTML
-        <!--IncludeInHeader::Text
+        <include-in-header>
           <meta name="viewport" content="width=device-width, initial-scale=1">
 
           <meta name="description" content="The personal website of Dan Ott.">
@@ -18,7 +18,7 @@ module Includable
           <link rel="alternate" type="application/rss+xml" href="/feed.xml" title="Dan Ott's RSS Feed">
 
           <script src="/javascripts/script.js"></script>
-        -->
+        </include-in-header>
       HTML
     end
   end
