@@ -2,7 +2,7 @@ class MarkdownSourceTest < Minitest::Test
   PLAINTEXT = <<~TEXT.strip
     <template data-parse>
       2024-01-01 #tags #and #key:value #data #with #comment: Nothing better to say
-   </template>
+    </template>
 
     # Markdown Title
 
@@ -24,7 +24,7 @@ class MarkdownSourceTest < Minitest::Test
     # Test hydrated source
     refute_equal PLAINTEXT, hydrated_source.content, "becomes html"
     refute_includes hydrated_source.content,
-                    "<template data-parse>",
+                    "<template data-parse",
                     "data comment has been hydrated into Source#data"
     assert_equal "site/dummy.md", hydrated_source.path, "unchanged in hydration"
 
