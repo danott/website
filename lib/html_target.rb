@@ -12,7 +12,7 @@ class HtmlTarget
 
   def hydrate
     hydrator =
-      MagicCommentHydrator.new(
+      MagicElementHydrator.new(
         content: content,
         data: Build.data.for_current_page(data)
       )
