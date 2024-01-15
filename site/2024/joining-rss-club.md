@@ -22,7 +22,7 @@ YAML frontmatter? Nope. I use an HTML comment. It looks like this:
 <!--data 2024-01-14 #noIndex #rssClub -->
 ```
 
-This is great! [iA Writer](https://ia.net/writer) still finds these tags. And it is clear while writing/previewing that they are not part of the to-be-rendered content. This was an iteration on top of the [simplification](/2022/simplification/) of ditching YAML frontmatter in 2022. 
+This is great! The tags are present but it is clear that they are not part of the to-be-rendered content. This was an iteration on top of the [simplification](/2022/simplification/) of ditching YAML frontmatter in 2022. 
 
 Nested layouts in ERB, Liquid, Nunjucks, or similar?  Nope.
 I have one template that creates wrapping HTML. It's the default template provided by `kramdown`. No Russian-doll layouts necessary. I use "magic comments" to compose pages. "Prefer composition over inheritance." I'm gonna give it a shot.
