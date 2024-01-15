@@ -69,6 +69,7 @@ class FeedTarget
       content = File.read(post_data.fetch("source_path"))
       content = Kramdown::Document.new(content, kramdown_options).to_html.strip
       content = remove_html_comments(content)
+      content = remove_magic_elements(content)
       content = remove_html_title(content)
       content = make_urls_absolute(content)
       content = append_rss_footer(content)
@@ -92,6 +93,13 @@ class FeedTarget
 
     def remove_html_comments(content)
       content.gsub(/<!--.*?-->/m, "")
+    end
+
+    def remove_magic_elements(content)
+      content
+        .gsub(%r{<template data-parse.*?</template>}m, "")
+        .gsub(%r{<include-in-header>.*?</include-in-header>}m, "")
+        .gsub(%r{<eval-ruby>.*?</eval-ruby>}m, "")
     end
 
     def remove_html_title(content)
