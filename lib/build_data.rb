@@ -1,14 +1,16 @@
 class BuildData
   attr_reader :targets
+  attr_reader :data_sets
   attr_reader :current_page
 
-  def initialize(targets, current_page = nil)
+  def initialize(targets, data_sets, current_page = nil)
     @targets = targets
+    @data_sets = data_sets
     @current_page = current_page
   end
 
   def for_current_page(next_current_page)
-    self.class.new(targets, next_current_page)
+    self.class.new(targets, data_sets, next_current_page)
   end
 
   def all
@@ -42,7 +44,7 @@ class BuildData
   end
 
   def sets
-    targets.select { |t| t.is_a?(DataSet) }.map { |t| [t.name, t.data] }.to_h
+    data_sets.map { |t| [t.name, t.data] }.to_h
   end
 
   def tags

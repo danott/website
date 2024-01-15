@@ -17,6 +17,10 @@ class Build
     "_site"
   end
 
+  def data_dir
+    "data"
+  end
+
   def dehydrated_sources
     @dehydrated_sources ||= Source.gather(source_dir)
   end
@@ -29,8 +33,12 @@ class Build
     @hydrated_targets ||= dehydrated_targets.map(&:hydrate) + [RssTarget.new]
   end
 
+  def data_sets
+    DataSet.gather(data_dir)
+  end
+
   def data
-    @data ||= BuildData.new(dehydrated_targets)
+    @data ||= BuildData.new(dehydrated_targets, data_sets)
   end
 
   def includables

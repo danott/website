@@ -1,6 +1,6 @@
 PinboardBookmark =
   Struct.new(:href, :title, :commentary, :date, :tags, keyword_init: true) do
-    PATH = "site/_pinboard_bookmarks.yml".freeze
+    PATH = "data/pinboard_bookmarks.yml".freeze
 
     def self.pull
       auth_token = ENV["DANOTT_DOT_WEBSITE_PINBOARD_AUTH_TOKEN"]
