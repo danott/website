@@ -1,64 +1,57 @@
 class MagicCommentHydrator
   attr_reader :content
-  attr_reader :includables
   attr_reader :data
 
-  def initialize(content:, includables:, data:)
+  def initialize(content:, data:)
     @content = content
-    @includables = includables
     @data = data
   end
 
   def hydrate
-    next_magic_comment.present? ? self.next.hydrate : self
+    next_magic_element.present? ? self.next.hydrate : self
   end
 
-  def next_magic_comment
-    magic_comment_regex = /<!--(Include|IncludeInHeader)::(.*?)-->/m
+  def next_magic_element
     eval_ruby_regex = %r{<(eval-ruby)>(.*?)</eval-ruby>}m
     include_in_header_regex =
       %r{<(include-in-header)>(.*?)</include-in-header>}m
-    content.match(magic_comment_regex) || content.match(eval_ruby_regex) ||
-      content.match(include_in_header_regex)
+    content.match(eval_ruby_regex) || content.match(include_in_header_regex)
   end
 
   def next
-    fail "No more hyddrating to do!" if next_magic_comment.nil?
+    fail "No more hydrating to do!" if next_magic_element.nil?
 
-    current_magic_comment = next_magic_comment
-
-    insert_at =
-      case current_magic_comment[1]
-      when "IncludeInHeader", "include-in-header"
-        content.index("</head>")
-      when "Include", "eval-ruby"
-        content.index(current_magic_comment[0])
-      else
-        fail "Don't know how to handle #{current_magic_comment[1]}"
-      end
+    entire_magic_element = next_magic_element[0]
+    magic_element_name = next_magic_element[1]
+    magic_element_children = next_magic_element[2]
 
     replacement =
-      case current_magic_comment[1]
+      case magic_element_name
       when "eval-ruby"
-        begin
-          eval(current_magic_comment[2]).to_s.strip
-        end
+        eval(magic_element_children).to_s.strip
       when "include-in-header"
-        current_magic_comment[2].to_s.strip
-      when "IncludeInHeader", "Include"
-        includable, maybe_string = current_magic_comment[2].split(/\s/m, 2)
-
-        includables
-          .fetch(includable)
-          .new(string: maybe_string.to_s.strip, data: data)
-          .render
-          .to_s
+        magic_element_children.to_s.strip
       else
-        fail "Don't know how to handle #{current_magic_comment[1]}"
+        fail "Don't know how to handle #{magic_element_name}"
       end
 
+    insert_at =
+      case magic_element_name
+      when "include-in-header"
+        content.index("</head>")
+      when "eval-ruby"
+        content.index(entire_magic_element)
+      else
+        fail "Don't know how to handle #{magic_element_name}"
+      end
+
+    if insert_at > content.index(entire_magic_element)
+      fail "Magic element cannot appear before the targeted replacement position, yet"
+    end
+
     next_content =
-      content.sub(current_magic_comment[0], "").insert(insert_at, replacement)
-    self.class.new(content: next_content, includables: includables, data: data)
+      content.sub(entire_magic_element, "").insert(insert_at, replacement)
+
+    self.class.new(content: next_content, data: data)
   end
 end

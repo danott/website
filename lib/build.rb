@@ -41,17 +41,6 @@ class Build
     @data ||= BuildData.new(dehydrated_targets, data_sets)
   end
 
-  def includables
-    @includables ||= {
-      "Text" => Includable::Text,
-      "DataDump" => Includable::DataDump,
-      "Index" => Includable::Index,
-      "PageDefaults" => Includable::PageDefaults,
-      "PostFooter" => Includable::PostFooter,
-      "SixWords" => Includable::SixWords
-    }
-  end
-
   def write
     hydrated_targets.map(&:write)
   end

@@ -25,8 +25,7 @@ class MagicCommentHydratorTest < Minitest::Test
         content: CONTENT,
         data: {
           "Fetch this!" => "Return that!"
-        },
-        includables: []
+        }
       )
     result = hydrator.hydrate
 

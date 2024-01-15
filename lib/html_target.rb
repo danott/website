@@ -14,7 +14,6 @@ class HtmlTarget
     hydrator =
       MagicCommentHydrator.new(
         content: content,
-        includables: Build.includables,
         data: Build.data.for_current_page(data)
       )
     self.class.new(content: hydrator.hydrate.content, path: path, data: data)
