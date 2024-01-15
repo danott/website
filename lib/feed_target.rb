@@ -1,9 +1,13 @@
-class RssTarget
+class FeedTarget
   TARGET_PATH = Build.target_dir + "/feed.xml"
   AUTHOR = "Dan Ott".freeze
   TITLE = "Dan Ott's RSS Feed".freeze
   URL = "https://danott.website".freeze
   FIRST_DANOTT_WEBSITE_POST_DATE = Date.parse("2024-01-13")
+
+  def hydrate
+    self
+  end
 
   def write
     File.write(TARGET_PATH, render)

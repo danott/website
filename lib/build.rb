@@ -30,7 +30,7 @@ class Build
   end
 
   def hydrated_targets
-    @hydrated_targets ||= dehydrated_targets.map(&:hydrate) + [RssTarget.new]
+    @hydrated_targets ||= dehydrated_targets.map(&:hydrate)
   end
 
   def data_sets

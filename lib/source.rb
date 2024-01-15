@@ -13,6 +13,8 @@ class Source
       MarkdownSource.new(path: path, content: MagicFile.read(path))
     when ".css", ".jpg", ".js", ".png"
       FileCopier.new(path)
+    when ".rb"
+      eval(File.read(path))
     else
       NoopSource.new(path)
     end
