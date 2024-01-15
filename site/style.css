@@ -95,16 +95,16 @@ textarea:not([rows]) {
 /* Begin my styles */
 
 :root {
-  --color-background: #eaeaea;
-  --color-text: #303030;
+  --color-background: rgb(251, 249, 239);
+  --color-text: rgb(43, 40, 27);
   --color-link: var(--color-text);
   font-size: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-background: #0e0b03;
-    --color-text: #f2ead3;
+    --color-background: rgb(37, 36, 31);
+    --color-text: rgb(242, 240, 234);
   }
 }
 
