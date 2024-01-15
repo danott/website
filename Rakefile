@@ -52,3 +52,31 @@ task :convert_old_posts do
 end
 
 task default: :build
+
+# https://www.seancdavis.com/posts/4-ways-to-pass-arguments-to-a-rake-task/
+def rake_arguments_hack
+  ARGV.each do |a|
+    task a.to_sym do
+    end
+  end
+end
+
+desc "Generate a post"
+task :generate do
+  rake_arguments_hack
+
+  title = ARGV.last
+  date = Date.current
+  slug = title.downcase.parameterize
+
+  filename = Build.source_dir + "/#{date.year}/#{slug}.md"
+  content = <<~MARKDOWN
+    <template data-parse>#{date}</template>
+
+    # #{title}
+  MARKDOWN
+
+  FileUtils.mkdir_p(File.dirname(filename))
+  File.write(filename, content) unless File.exists?(filename)
+  `code #{filename}`
+end
