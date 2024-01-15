@@ -2,15 +2,17 @@
 
 console.log("Hello World!");
 
-class IncludeHere extends HTMLElement {
+class EvalRuby extends HTMLElement {
   connectedCallback() {
-    console.error("Unexpected Custom element added to page!");
+    console.error(
+      "Unexpected element added to page! This should have been removed when building the site!"
+    );
     console.error(this);
     this.parentElement.removeChild(this);
   }
 }
 
-class IncludeInHeader extends IncludeHere {}
+class IncludeInHeader extends EvalRuby {}
 
+customElements.define("eval-ruby", EvalRuby);
 customElements.define("include-in-header", IncludeInHeader);
-customElements.define("eval-ruby", IncludeHere);
