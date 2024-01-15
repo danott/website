@@ -40,7 +40,7 @@ class ConversionTest < Minitest::Test
       This is a paragraph
     EXPECTED
 
-    actual = Conversion.new(expected).output
+    actual = Conversion.new(input).output
     assert_equal expected, actual, "conversion should work"
 
     actual = Conversion.new(actual).output
