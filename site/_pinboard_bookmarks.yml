@@ -1,0 +1,2158 @@
+---
+- !ruby/struct:PinboardBookmark
+  href: https://tech-universe.net/posts/other/how-to-rename-a-tag-in-pinboard/
+  title: How to rename a tag in pinboard
+  commentary: "```bash\r\ncurl \"https://api.pinboard.in/v1/tags/rename?old=OldTag&new=NewTag&auth_token=YOUR_API_TOKEN\"\r\n```\r\n\r\nI
+    use tags for importing Pinboard bookmarks into my website. I wanted to rename
+    tags when changing from https://www.danott.co to https://danott.website. There's
+    no clear way in the Pinboard website. But this API endpoint did the trick!"
+  date: 2024-01-15
+  tags:
+  - pinboard
+- !ruby/struct:PinboardBookmark
+  href: https://interconnected.org/home/2024/01/05/triangles
+  title: The unimagined orange and new frontiers in management consultancy (Interconnected)
+  commentary: I'm going to be on the lookout for triangle plots that need to exist.
+    2x2 matrices are great. Venn diagrams are great. Bringing three dimensions adds
+    the nuance that drives depth perception.
+  date: 2024-01-09
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://rss.diffbot.com/
+  title: RSS Anything
+  commentary: "> Transform any old website with a list of links into an RSS Feed\r\n\r\nYes,
+    please."
+  date: 2024-01-09
+  tags:
+  - rss
+- !ruby/struct:PinboardBookmark
+  href: https://dubroy.com/blog/cold-blooded-software/
+  title: Cold-blooded software
+  commentary: "> Maybe your CI isn’t working because one of the services you depend
+    on got bought or ran out of money. You add a new dependency and find yourself
+    needing to upgrade your compiler. Another package you depend on is deprecated,
+    and doesn’t work with the latest version of the compiler.\r\n>\r\n> Some projects
+    are different. You work alone, make some changes when you’re inspired, and then
+    don’t touch it again for another year, or two, or three. You can’t run something
+    like that as a warm-blooded project. There’s not enough activity to keep the temperature
+    up.\r\n\r\nThis dichotomy of \"warm-blooded software\" and \"cold-blooded software\"
+    is really helpful. It invokes feelings of \"choose the right tool for the job\",
+    but on an entirely different horizon. Production applications with paying customers
+    can carry the costs of being a warm-blooded project. A personal blog might be
+    more suited to being a cold-blooded project."
+  date: 2024-01-02
+  tags:
+  - software
+  - development
+- !ruby/struct:PinboardBookmark
+  href: https://www.builder.io/blog/structured-clone
+  title: Deep Cloning Objects in JavaScript, the Modern Way
+  commentary: Today I learned about `structuredClone` in JavaScript. Very cool to
+    see the progress in this language over the years. What was implemented as a best
+    attempt in user land is now a native capability that supports all the data structures,
+    circular dependencies, et. al.
+  date: 2024-01-02
+  tags:
+  - javascript
+  - til
+- !ruby/struct:PinboardBookmark
+  href: https://macwright.com/2023/12/01/recently.html
+  title: Tom MacWright's Recently (December, 2023)
+  commentary: "> Something I’ve been encountering time and time again is the difficulty
+    of getting both “good vibes” and “good ideas” in the same movement.\r\n\r\nThis
+    tension is real in many domains."
+  date: 2023-12-05
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.alltrails.com/trail/us/north-carolina/grandfather-trail-to-watauga-viewpoint
+  title: Grandfather Trail to Calloway Peak (Watauga Viewpoint), North Carolina
+  commentary: Saw someone advertising this trail on Instagram. Looks like a lot of
+    ladders and scrambling. Would be fun!
+  date: 2023-11-27
+  tags:
+  - hiking
+- !ruby/struct:PinboardBookmark
+  href: https://www.oddbird.net/2023/11/17/components/
+  title: HTML Web Components are Just JavaScript?
+  commentary: "> Custom Elements seem designed for providing (wait for it) custom
+    elements (markup), while framework components (old and new) put more focus on
+    combining all the elements into reusable templates.\r\n\r\nThis distinction between
+    \"custom elements\" and \"reusable templates\" is helpful. Many (not all) framework
+    component authors don't believe their consumers can be trusted with the raw materials.
+    So they provide a templating language instead of composable pieces.\r\n\r\nThe
+    auto-register idea towards the end of the post is compelling. If quickly defining
+    templates with slots is what you need."
+  date: 2023-11-27
+  tags:
+  - html
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://www.trysmudford.com/blog/desktop-progressive-web-applications/
+  title: Desktop progressive web applications
+  commentary: I love seeing a desktop progressive web application that just works.
+    A Great little utility. And greater inspiration for what can be achieved by going
+    with the grain of the web these days.
+  date: 2023-11-27
+  tags:
+  - pwa
+- !ruby/struct:PinboardBookmark
+  href: https://notes.baldurbjarnason.com/2022/08/10/maybe-whats-needed.html
+  title: Prepper Web Dev
+  commentary: Principles to build by.
+  date: 2023-07-11
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://adrianhoward.com/posts/faster-horses/
+  title: Faster Horses
+  commentary: "The Henry Ford quote is so well known in product development that I
+    don't need to to quote it here.\r\n\r\n> “faster” wasn’t the selling point of
+    cars over horses. Speed wasn’t the problem. Spending huge amounts of money, time,
+    and space on keeping horses alive and dealing with the literal horse shit was
+    the problem.\r\n\r\nThose original problems are so far removed from modern day.
+    It's not intuitive to imagine the problems I've never had to solve. It's intuitive
+    to substitue my modern problem of speed over everything.\r\n\r\n> TL;DR: Henry
+    Ford did not say “If I had asked people what they wanted, they would have said
+    faster horses”. He pretty much said the exact opposite.\r\n\r\nListen to people.
+    Get their point of view. Discover their problems."
+  date: 2023-07-11
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://blog.nelhage.com/post/efficiency-vs-resiliency/
+  title: Efficiency trades off against resiliency
+  commentary: "> I mean a much more general notion of “ability to absorb or respond
+    to change” – change of all sorts, including both bugs or failures, but also change
+    in product needs, change in the market, change in the organization or team composition,
+    whatever.\r\n\r\nThe true competitive advantage is being able to adapt to changing
+    conditions.\r\n\r\n> A system with no slack is efficient as long it works, but
+    brittle and will break down quickly in the presence of any changes to its usual
+    operating modes.\r\n\r\n> When we accuse a system of being wasteful and inefficient,
+    it’s worth pausing to ask what that “waste” may be buying. When we set out to
+    optimize a system, pause to understand where the joints and flexibility in the
+    current system are, and which ones are vital, and to do our best to preserve those.
+    When we set metrics or goals for a system or a team or an organization that ask
+    for efficiency, let us be aware that, absent countervailing pressures, we are
+    probably also asking for the system to become more brittle and fragile, too.\r\n\r\n“Become
+    more fragile” is not something I would wish on any team. This is helpful framing."
+  date: 2023-07-11
+  tags:
+  - engineering
+- !ruby/struct:PinboardBookmark
+  href: https://mikemai.net/typography-manual/
+  title: Typography Manual by Mike Mai
+  commentary: A beautiful little site with big opinions about web typography.
+  date: 2023-04-27
+  tags:
+  - typography
+  - design
+- !ruby/struct:PinboardBookmark
+  href: https://theworst.dev/developer-advocates-guide-to-metrics-and-reporting
+  title: The Developer Advocate's Guide to Metrics and Reporting
+  commentary: "> There is no such thing as a bad metric, no matter what anyone tells
+    you. A metric is a data point. It can't be good or bad. However, folks will use
+    metrics for things that are not a good fit and write it off as useless or bad."
+  date: 2023-04-11
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://blog.ayjay.org/libraries-vs-publishers/
+  title: libraries vs. publishers
+  commentary: "> publishing conglomerates don’t care about readers; they only care
+    about customers. If they had their way reading would be 100% digital, because
+    they continue to own and have complete control over digital books, which cannot
+    therefore be sold or given to others. They are the enemies of circulation in all
+    its forms, and circulation is the lifeblood of reading.\r\n\r\n_Circulation_ is
+    a word worth dwelling on. Even at rest, there is constant circulation of certain
+    resources."
+  date: 2023-04-11
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://jamesclear.com/3-2-1/march-30-2023
+  title: The difference between ambition and entitlement
+  commentary: "> Ambition is when you expect yourself to close the gap between what
+    you have and what you want.\n> \n> Entitlement is when you expect others to close
+    the gap between what you have and what you want."
+  date: 2023-04-10
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.nytimes.com/2023/04/04/health/alcohol-health-effects.html?unlocked_article_code=MqTcHuVjmwMJMQNVP2-aRwIg24lfX4vJMv1vg6iGTKS405v9N8LJ5tSuE7pZR5eB58a3PwXW0sJI4QwbzsIlyZuL0v4XtSZdkykTkgtDg2krycCSzl_9egE9KgoT2vnEOQibIZfaY8OYaLbUTbnXBbZRJuEci166Te4czT_-341NaEXc7zQtUh7_N4wU2GIN_L1lblnN0oGjsZMEV49q1nPoLXNd6BPVxpUWE7aEA9XZ9W0I7HiIyS-4N5pVR8IhCRPXEW8xfo6Ead1clFKqPuTtybxffLNhRJXgep19GjbSgxe0a7PL816BhSmg699qKsvItYAfRogyAq9kAN1H&smid=nytcore-ios-share&referringSource=articleShare
+  title: Moderate Drinking Has No Health Benefits, Analysis of Decades of Research
+    Finds
+  commentary: "> A new analysis of more than 40 years of research has concluded that
+    many of those studies were flawed and that the opposite is true.\r\n\r\nWhoops."
+  date: 2023-04-10
+  tags:
+  - alcohol
+- !ruby/struct:PinboardBookmark
+  href: https://lethain.com/who-runs-eng-process/
+  title: Who runs Engineering processes?
+  commentary: |-
+    > What I’ve learned since, mostly through designing thoughtful processes that nonetheless failed, is that good process is a deliberate tradeoff between quality and overhead.
+
+    This reads like the managerial manifestation of "do you want more boilerplate or more magic [in your codebase]?" Nobody likes having more overhead...but nobody likes the uncertainty of how to handle routine situations, either. Knowing that the tradeoff must be made made feels like the smallest increment of progress.
+  date: 2023-04-10
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.theatlantic.com/ideas/archive/2023/03/work-revolution-ai-wfh-new-book/673572/
+  title: This Is the Beginning of the Fourth Revolution of Work
+  commentary: "> The technologies that most empower humanity almost always produce
+    a shadow ledger of pain. The steam engine unleashed the industrial revolution
+    and brutally shortened life spans. Nuclear technology can power energy reactors
+    or atomic bombs. The internet makes us productive and unproductive, delighted
+    and miserable, informed and deluded. Like the future of everything else, the future
+    of work will be, above all, messy.\r\n\r\nThere is no silver bullet. Every benefit
+    has associated cost(s)."
+  date: 2023-04-10
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://notebook.wesleyac.com/gpt-ugh/
+  title: Scattered ChatGPT thoughts
+  commentary: "> I try to have the things in my life — particularly books, media,
+    and software — be as high quality as possible, because I enjoy having a nice life
+    where things work and I am surrounded by beauty. Seeing people transfixed by a
+    machine that can generate massive amounts of mediocrity is baffling to me.\r\n\r\nFlattening
+    the curve on creativity."
+  date: 2023-03-28
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.thenation.com/article/culture/interior-design-greige-capitalism/
+  title: Liberating Our Homes From the Real Estate–Industrial Complex
+  commentary: "> The home is no longer seen as a space of personal expression or comfort,
+    or as the backdrop of everyday life, but primarily as an investment and as an
+    asset—meaning that enforcing one’s aesthetics is a financially detrimental decision.
+    Those with the capital to become homeowners (already a diminishing segment of
+    the public) conceive of their houses as being for selling before they even live
+    a day in them.\r\n\r\nCurating our personal space for hypothetical mass appeal
+    is dumb and I want to be done with it."
+  date: 2023-03-28
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://robhorning.substack.com/p/overreliance-as-a-service
+  title: Overreliance as a service
+  commentary: "I like having a mix of bullish and bearish thoughts about ChatGPT and
+    large language models. This critique is worth the time.\r\n\r\n> [ChatGPT] wants
+    to incrementally bring us to the conclusion that “overreliance” is actually convenience,
+    the classic affective alibi for all forms of imposed automation: Why would you
+    want to bother with the effort of thinking? Where is the edge in that? Why struggle
+    internally with how to express yourself when you can instantly produce results?
+    Why struggle to find new kinds of consensus with other \r\npeople when all the
+    collaboration we need is already built into and guaranteed by the model? What’s
+    more robotic than doing what society tells you to do and being part of a group?\r\n\r\nA
+    prediction engine will flatten the discourse toward acceptable mediocrity. \r\n\r\n>
+    Convenience has also long served as a way to repackage isolation as a treat.\r\n\r\nGeesh.
+    Individual microwave meals come to mind on a completely different horizon of technological
+    advancement. How convenient it is to dine alone in perpetuity."
+  date: 2023-03-28
+  tags:
+  - culture
+- !ruby/struct:PinboardBookmark
+  href: https://modernfontstacks.com/
+  title: Modern Font Stacks
+  commentary: I love a good CSS baseline to make things look halfway decent.
+  date: 2023-03-27
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://barryfrost.com/2023/03/tunnel
+  title: Creating a tunnel to localhost with Cloudflare
+  commentary: I've always wanted to be one of those kids in my computer science classes
+    that routed all traffic through an SSH tunnel. This is an approach I can keep
+    up with.
+  date: 2023-03-21
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.a11y-collective.com/the-perfect-link/
+  title: The perfect link
+  commentary: An ode to the hyperlink. Practical advice with a focus on accessibility
+    for all.
+  date: 2023-03-21
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://masilotti.com/doing-more-means-more-todos/
+  title: Doing more only makes a to-do list grow longer
+  commentary: "> A to-do list isn’t a catch all. It’s not a list of tasks that could
+    be done. It’s a ruthlessly prioritized list of tasks that must be done.\r\n> \r\n>
+    Each and every item on a to-do list must earn its spot. If a new one is to be
+    added it must at least be better than the bottom item on the list.\r\n\r\nA set
+    of criteria I’m apt to adopt. I’m great at the _capture_ step of Getting Things
+    Done methodology. The act of capturing is not enough proof of worth. Catch and
+    release is an available strategy."
+  date: 2023-03-05
+  tags:
+  - productivity
+- !ruby/struct:PinboardBookmark
+  href: https://blog.ayjay.org/unsimulated/
+  title: unsimulated
+  commentary: "> of course people think we’re in a computer simulation. We always
+    conceive of our minds as a dominant technology of our moment.\r\n\r\nThis historical
+    trend is a new insight for me. How does the availability of a metaphor shape our
+    mind's relationship with our bodies? Does reaching for virtual private servers
+    instead of managing racks of hardware cause a devaluation in the embodied experience?
+    Are there trends of (un)health that correlate with hardware choices? Does using
+    Docker cause a person to have a more compartmentalized form of attachment?"
+  date: 2023-02-28
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.robinrendle.com/notes/the-brink/
+  title: The Brink
+  commentary: "> I always forget this so here’s a reminder for the future: books are
+    always the answer when things suck.\r\n\r\nSix tight paragraphs about a reader's
+    relationship with books and self.\r\n\r\n- Read books to stay healthy\r\n- Discard
+    books without a second thought"
+  date: 2023-02-27
+  tags:
+  - reading
+  - books
+- !ruby/struct:PinboardBookmark
+  href: https://feeeed.nateparrott.com/
+  title: feeeed
+  commentary: "> Build your own news feed\r\n\r\nA beautiful imagining of RSS, web
+    clips, and other bygone ideas that need to come back to the forefront."
+  date: 2023-02-27
+  tags:
+  - rss
+- !ruby/struct:PinboardBookmark
+  href: https://lethain.com/eng-strategies/
+  title: Writing an engineering strategy
+  commentary: "There's a lot of nuggets of truth in this post. Worth the read if you're
+    into (engineering) organizational leadership & health.\r\n\r\n> The reason most
+    written strategies don’t apply is because they’re actually visions of how things
+    could ideally work, rather than accurate descriptions of how things work today.
+    This means they don’t help you plot a course through today’s challenges to the
+    desired state.\r\n\r\nI've been encountering this in multiple spheres. Changes
+    in habits are necessary as an organizations grow. Changes in individual habits
+    are slow. Incremental adaptations are the basis of transformation on all horizons.
+    Writing things down should be mostly an act of documentation. Maybe 5% of a document
+    should be testing out a mutation that you'd like to be true. \r\n\r\n> Once you’ve
+    documented them, discussions will happen more frequently, which will create a
+    persistent pull towards improvement. It’s better to go slowly than to avoid starting
+    altogether.\r\n\r\nThis also matches my experience. Action begins action. Documentation
+    unearths differences. The key is making sure everyone understand that understanding
+    and clarity is the goal. Most documents are editable. Most decisions are reverisble.
+    And most decisions are small bets. One foot in front of the other makes for a
+    nice walk in the park."
+  date: 2023-02-16
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://aworkinglibrary.com/writing/an-engine-of-precaritization
+  title: An engine of precaritization
+  commentary: "> At what point do you realize the engine you are building is the one
+    that’s preparing to run you over?"
+  date: 2023-02-16
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.theatlantic.com/health/archive/2023/01/yerba-mate-consumption-caffeine-coffee-alternative/672820/
+  title: The Coffee Alternative Americans Just Can’t Get Behind
+  commentary: Dilution, added sugar, and individualism sells better than ritual and
+    intimacy. The former is what we want. The latter is what we need.
+  date: 2023-02-13
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://world.hey.com/jorge/writing-is-thinking-95dee8cb
+  title: Writing is thinking
+  commentary: "> Authenticity concerns aside, a powerful reason to NOT use ChatGPT
+    to write stuff on your behalf is that it will prevent you from thinking.\r\n\r\nEvery
+    time I write to think I’m happy with how I spent my time. The anecdotes are true.
+    Writing(in English) before writing (in code) produces better solutions. And clearer
+    scopes for dividing up the problem."
+  date: 2023-01-22
+  tags:
+  - writing
+  - code
+- !ruby/struct:PinboardBookmark
+  href: https://collabfund.com/blog/the-art-and-science-of-spending-money/
+  title: The Art and Science of Spending Money
+  commentary: A blog post from the author of [The Psychology of Money](https://www.amazon.com/Psychology-Money-hardback-Timeless-happiness/dp/0857199099/).
+    Providing a fly-by view of some attitudes that emerge. Particularly of those who
+    are entrenched in their habits.
+  date: 2023-01-17
+  tags:
+  - money
+- !ruby/struct:PinboardBookmark
+  href: https://lauravanderkam.com/manage-your-time/
+  title: Manage Your Time
+  commentary: Some immediately actional advice to start making better use of your
+    time. From the author of [168 Hours](https://lauravanderkam.com/books/168-hours/).
+  date: 2023-01-10
+  tags:
+  - books
+  - time
+- !ruby/struct:PinboardBookmark
+  href: https://www.welcometothejungle.com/en/articles/empathetic-leadership
+  title: The pitfalls of empathetic leadership
+  commentary: ">  I think we’ve lost the idea that there is such a thing as professionalism,
+    but I think we need to bring that back.\r\n\r\nThis entire article is helpful.
+    Some companies need to inject more empathy into their culture. Others need to
+    quit calling a business a family and bring back the idea of professionalism."
+  date: 2023-01-10
+  tags:
+  - leadership
+- !ruby/struct:PinboardBookmark
+  href: https://www.hawksworx.com/blog/alias-your-mastodon-username-to-your-domain-with-one-netlify-config-setting/
+  title: Alias your mastodon account to your own domain with Netlify redirect
+  commentary: I don't plan to get on Mastadon. But knowing about some of these open
+    protocols and how to satisfy them with Netlify redirects is pretty neat!
+  date: 2022-12-19
+  tags:
+  - netlify
+- !ruby/struct:PinboardBookmark
+  href: https://a.wholelottanothing.org/2022/12/07/how-to-be-a-writer-on-a-marketing-team-without-sounding-like-a-jerk/
+  title: How to be a writer on a marketing team without sounding like a jerk
+  commentary: Practical tips for writing within an organization.
+  date: 2022-12-19
+  tags:
+  - blog
+  - writing
+- !ruby/struct:PinboardBookmark
+  href: https://piperhaywood.com/good-enough-for-now-and-safe-enough-to-try/
+  title: “Good enough for now, and safe enough to try"
+  commentary: The title sums it up. What a helplful bit of advice for keeping momentum
+    moving forward. Uncertainty is a constant. Waiting for a solution that completely
+    obliterates it stalls progress. Aim for small safe moves instead.
+  date: 2022-11-21
+  tags:
+  - principles
+- !ruby/struct:PinboardBookmark
+  href: https://aegir.org/archive/
+  title: Aegir.org
+  commentary: This is the best personal website I've encountered in a while. Bespoke
+    style on every page at a manageable scale. Don't be surprised if I end up doing
+    this soon.
+  date: 2022-11-21
+  tags:
+  - homepages
+- !ruby/struct:PinboardBookmark
+  href: https://fs.blog/michael-abrashoff-leadership/
+  title: 'Lessons on Leadership: Michael Abrashoff on Turning the Worst Ship in the
+    Navy into the Best'
+  commentary: "> The thing about rules and policies is they become very hard to fix
+    once they are put in place. Both the people who put them in place and the people
+    whose jobs it is to exercise them become highly motivated advocates of the policies.
+    Even if the policies originally made sense, they become very hard to change. When
+    you try to change something but can’t, you start becoming a tenant and stop being
+    an owner."
+  date: 2022-11-21
+  tags:
+  - leadership
+- !ruby/struct:PinboardBookmark
+  href: https://www.palomamedina.com/biceps
+  title: BICEPS
+  commentary: "BICEPS is a helpful acronym for recalling the six core that are important
+    for all humans.\r\n\r\n- Belonging\r\n- Improvement\r\n- Choice\r\n- Equality/fairness\r\n-
+    Predictability\r\n- Significance"
+  date: 2022-11-16
+  tags:
+  - culture
+  - leadership
+- !ruby/struct:PinboardBookmark
+  href: https://www.cynch.com/
+  title: Cynch Propane Tank Delivery
+  commentary: "What an amazing business idea. Exchanging propane tanks is a propane
+    in my neck. \r\n\r\nNot available where I live, yet. \U0001F622"
+  date: 2022-11-02
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://whatsyour.webcam/
+  title: What’s your webcam?
+  commentary: Joshua Blankenship's very nice website about web cameras and microphones
+    for telepresence setup.
+  date: 2022-10-25
+  tags:
+  - gear
+- !ruby/struct:PinboardBookmark
+  href: https://world.hey.com/dhh/don-t-tell-someone-how-to-feel-b3fd3c25
+  title: Don’t tell someone how to feel
+  commentary: "> All we get to control are our own actions and intentions. Consider
+    those carefully. Then let others be free from your expectations about how they
+    ought to feel about that."
+  date: 2022-10-25
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://greg.molnar.io/blog/a-single-file-rails-application/
+  title: A Single file Rails Application
+  commentary: Using single file applications to demonstrate core ideas or reproduce
+    edge case bugs is an invaluable tool. Greg provided a nice little write-up about
+    how to do it.
+  date: 2022-08-15
+  tags:
+  - ruby
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: https://marcoheine.com/blog/just-hit-publish/
+  title: Just hit publish
+  commentary: "> in most cases, this kind of perfectionism is holding me back. \r\n\r\nMarco
+    hits the nail on the head with this one. The goal of blogging is to share ideas
+    and continually learn. If you wait for 100% certainty and the feelings of authority,
+    nothing will ever be written."
+  date: 2022-08-08
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://adjacentpossible.substack.com/p/the-thinking-path
+  title: The Thinking Path
+  commentary: Walking at a comfortable pace unlocks better thinking and problem solving.
+    It really is that simple.
+  date: 2022-08-02
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://aworkinglibrary.com/writing/practice-the-future
+  title: Practice the future
+  commentary: ">  practice is a commitment to a process, not a predetermined outcome.
+    And the outcome was not what I predicted.\r\n\r\nViewing the future fatalistically
+    isn't helpful. Prenteding you can trol the entire outcome is equally helpful.
+    But the insistence on nudging, influencing, and practicing is a nice balance between
+    the two, setting realistic expectations.\r\n\r\n> > Serving as a kind of midwife
+    to change is a magical experience. The opportunities I’ve had to build close and
+    trusting relationships with people, both my reports and others—when I’ve been
+    able to listen deeply, sit with someone through big feelings, or ask open questions
+    and discover the insight that bubbles up—have been the most rewarding parts of
+    my career. The times when I’ve missed the chance to do that represent my greatest
+    regrets.\r\n\r\nThe analogy of midwifery is perfect. Supporting others as new
+    features are brought into the world. I think this emphasis on coaching resonates
+    with me."
+  date: 2022-08-02
+  tags:
+  - practice
+- !ruby/struct:PinboardBookmark
+  href: https://www.swyx.io/three-strikes
+  title: My Three Strikes Rule for Blogging
+  commentary: A great rule of thumb that I'd like to adopt. And to extend the analogy—there
+    is no use in trying to go back to bat on old ideas that have struck out. They'll
+    bubble back up if they're truly enduring, and you'll get another swing at it.
+  date: 2022-07-12
+  tags:
+  - blogging
+- !ruby/struct:PinboardBookmark
+  href: https://www.robinsloan.com/notes/home-cooked-app/
+  title: An app can be a home-cooked meal
+  commentary: Everyone should learn to cook. Everyone should learn to code. Not every
+    cook aspires to be a restauranteur. Some just want to host good parties for their
+    families and friends. You can take hte same approach to coding.
+  date: 2022-06-27
+  tags:
+  - cooking
+  - programming
+- !ruby/struct:PinboardBookmark
+  href: https://interconnected.org/home/2022/05/31/beat_saber
+  title: In which Beat Saber does odd things to my head
+  commentary: "> I feel like in our modern era there is an over-fixation on engagement
+    and being in the moment\n\nThis is the first time I’ve hear of “in-the-moment”’ism
+    called into question. He goes on to find a quote positing this position from the
+    early days of computer interaction in 1993. \n\nEngagement is not the only virtue."
+  date: 2022-06-07
+  tags:
+  - ideas
+- !ruby/struct:PinboardBookmark
+  href: https://principles.adactio.com/#organisations
+  title: Design Principles
+  commentary: Adactio’s Design Principles page is an amazing collection of principles
+    from various organizations and individuals.
+  date: 2022-05-12
+  tags:
+  - design
+- !ruby/struct:PinboardBookmark
+  href: https://interconnected.org/home/2022/05/05/larping
+  title: I’m not a goblin, I just play one in Google Docs
+  commentary: LARP rules everything around me.
+  date: 2022-05-06
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://jlwagner.net/blog/make-it-boring/
+  title: Make it boring
+  commentary: "> Those technologies may seem boring, but boring is fast. Boring is
+    usable. Boring is resilient and fault tolerant. Boring is accessible"
+  date: 2022-05-01
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://werd.io/2022/elon-twitter-and-the-future-of-social-media
+  title: Elon, Twitter, and the future of social media
+  commentary: "> In America, you have the right to free speech, but you do not have
+    the right to be heard. For that, your message actually has to resonate."
+  date: 2022-04-21
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.robinrendle.com/notes/ego-and-design/
+  title: Ego and Design
+  commentary: |-
+    > But design work is so much healthier/better when you stop telling yourself that you’re changing lives. Websites can just be…websites! And your front end framework or side project doesn’t need to reshape human civilization for it to be worth while.
+    >
+    > Once you relieve yourself of that pressure it’s so much easier to be happy and to do good, useful work.
+  date: 2022-04-21
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://freakingrectangle.wordpress.com/2022/04/15/how-to-freaking-hire-great-developers/
+  title: How to Freaking Find Great Developers By Having Them Read Code
+  commentary: Once heard, this idea seems so obvious that it's painful. Have candidate
+    read code instead of writing code. Most of the job is reading things that have
+    already been written, not writing new things. I like it.
+  date: 2022-04-18
+  tags:
+  - interviewing
+- !ruby/struct:PinboardBookmark
+  href: https://www.wired.com/story/a-grand-unified-theory-of-buying-stuff/
+  title: A Grand Unified Theory of Buying Stuff
+  commentary: "> The problem is that certain kinds of stuff simply attract more stuff.
+    The home is an obvious one: It craves sofas, sweaters, buffet cabinets, chandeliers.
+    Computers are another; they grow USB tendrils. Smartphones beget earbuds, cloud
+    backups, and music service subscriptions. I am jealous of the people who make
+    it work with an Eames chair, a fancy ottoman, some nice art books, and multigenerational
+    inherited wealth. \r\n\r\n> The supply chain is fractal: Zoom in on your stuff
+    and there's more stuff, ad infinitum."
+  date: 2022-04-08
+  tags:
+  - habits
+- !ruby/struct:PinboardBookmark
+  href: https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use/
+  title: Those HTML Attributes You Never Use
+  commentary: I learned a thing or two from this post. I love me some semantic HTML.
+  date: 2022-03-31
+  tags:
+  - html
+- !ruby/struct:PinboardBookmark
+  href: https://apenwarr.ca/log/20190926
+  title: What do executives do, anyway?
+  commentary: "> ...the job of an executive is: to define and enforce culture and
+    values for their whole organization, and to ratify good decisions.\r\n\r\n> That's
+    all.\r\n\r\nThe whole post is great, and this quote sums it up."
+  date: 2022-03-31
+  tags:
+  - leadership
+- !ruby/struct:PinboardBookmark
+  href: https://tomgamon.com/posts/semantic-versioning-for-teams/#fnref:2
+  title: Semantic Versioning for Teams
+  commentary: "> Someone smart said to me that “Teams are Immutable”, so they would
+    contend that if you add or take away one member you essentially have a whole new
+    team because the dynamics and skills within the team are different. So how can
+    you convey that idea that the team is significantly different at different stages
+    in time?\r\n\r\nImmutability as the backing data structures for teams is a super
+    compelling mental model. People intuit this during every transition. \"This is
+    going to change the team\"...the language of mutability. It feels primed for loss,
+    and slightly hopeful for improvemement. Changing the mental model to \"this is
+    a fork of the team\" seems to mitigate the feelings of loss in my mind."
+  date: 2022-03-31
+  tags:
+  - teams
+- !ruby/struct:PinboardBookmark
+  href: https://notes.andymatuschak.org/About_these_notes
+  title: About these notes
+  commentary: Andy has a fresh take on note taking on the Internet. No index of every
+    note available. All exploratory cross-linking. I dig it!
+  date: 2022-03-28
+  tags:
+  - thinking
+  - notes
+- !ruby/struct:PinboardBookmark
+  href: https://werd.io/2022/the-idea-that-having-a-better-future
+  title: The idea that having a better future...
+  commentary: "> The idea that having a better future is mostly about building personal
+    wealth puts the onus on personal responsibility instead of a system that is pitted
+    against entire communities. Everyone deserves to live a great life. And to live
+    in a system that supports them.\r\n\r\nI appreciate Ben's thoughts often. This
+    one in particular stuck out."
+  date: 2022-03-28
+  tags:
+  - ideas
+- !ruby/struct:PinboardBookmark
+  href: https://www.drucker.institute/
+  title: Manage with courage
+  commentary: This is a beautiful website. And the content it presents is infinitely
+    helpful for management training.
+  date: 2022-03-25
+  tags:
+  - management
+  - inspiration
+- !ruby/struct:PinboardBookmark
+  href: https://webvision.mozilla.org/
+  title: Mozilla’s vision for the evolution of the Web
+  commentary: I sure do appreciate Mozilla existing, and advocating for the grain
+    of the web.
+  date: 2022-03-25
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://jhawthorn.github.io/curl-to-ruby/
+  title: 'curl-to-ruby: Convert curl commands to ruby''s net/http'
+  commentary: Does what it says on the tin. This would be super handy when throwing
+    together Ruby scripts that don't require dependencies.
+  date: 2022-03-25
+  tags:
+  - ruby
+  - curl
+- !ruby/struct:PinboardBookmark
+  href: https://pudding.cool/2022/02/plain/
+  title: What makes writing more readable?
+  commentary: This is what the web was made for. A nice big toggle shows a comparison
+    of writing styles. I want to write the simple way.
+  date: 2022-03-02
+  tags:
+  - writing
+- !ruby/struct:PinboardBookmark
+  href: http://boringtechnology.club/
+  title: Choose Boring Technology
+  commentary: A perfectly named website—where the elevator pitch pretty much says
+    it all.
+  date: 2022-02-25
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.websters1913.com/
+  title: Webster's 1913
+  commentary: This is what a web-based dictionary should be.
+  date: 2022-02-24
+  tags:
+  - reference
+- !ruby/struct:PinboardBookmark
+  href: https://vimeo.com/entstellungen
+  title: Johannes Binotto
+  commentary: These explorations in the medium of video are fascinating.
+  date: 2022-02-21
+  tags:
+  - video
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/github/hotkey
+  title: hotkey
+  commentary: "> Trigger an action on an element with a keyboard shortcut\r\n\r\nA
+    JavaScript library made by GitHub itself. If it's good enough for GitHub, it's
+    good enough for me!"
+  date: 2022-02-21
+  tags:
+  - github
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://www.roughtype.com/?p=9139
+  title: The people of the metaverse
+  commentary: "> The reason we talk so much about authenticity now is because authenticity
+    is no longer available to us. At best, we simulate authenticity: we imbue our
+    deep fakeness with the qualities that people associate with the authentic. We
+    assemble a self that fits the pattern of authenticity, and the ever-present audience
+    applauds the pattern as “authentic.” The likes roll in, the views accumulate.
+    Our production is validated. If we’re lucky, we rise to the level of influencer.
+    What is an influencer but the perfection of the deep-fake self?"
+  date: 2022-02-21
+  tags:
+  - quote
+- !ruby/struct:PinboardBookmark
+  href: https://katydecorah.com/code/build-your-metadata-library/
+  title: Build your metadata library
+  commentary: "[Katy DeCorah](https://github.com/katydecorah)'s use of GitHub repos
+    and actions to track metadata is super cool! Simple yaml storage for the win!"
+  date: 2022-02-21
+  tags:
+  - github
+- !ruby/struct:PinboardBookmark
+  href: https://recipesforfood.net/
+  title: Recipes for Food
+  commentary: A beautiful collection of simple recipes, without the unnecessary narrative.
+  date: 2022-02-21
+  tags:
+  - cooking
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/susam/spcss/
+  title: spcss
+  commentary: "> A simple, minimal, classless stylesheet for simple HTML pages\r\n\r\nA
+    style sheet for when ~dinosaurs~ plain-old-semantic-HTML ruled the world."
+  date: 2022-02-21
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://dadadrummer.substack.com/p/spotify-is-misinformation
+  title: The Big Short of Streaming
+  commentary: Spotify building its business on arbitrage and viewing music as valueless
+    is a take.
+  date: 2022-02-08
+  tags:
+  - music
+- !ruby/struct:PinboardBookmark
+  href: https://www.vestaboard.com/
+  title: Vestaboard
+  commentary: "> A Smart Display To Connect And Inspire\r\n\r\nThis is the kind of
+    product I crave. Nostalgic aesthetic with just the right amount of technology
+    to make it useful in a modern context."
+  date: 2022-02-06
+  tags:
+  - hardware
+- !ruby/struct:PinboardBookmark
+  href: https://mobile.twitter.com/mmay3r/status/1031638144834187266
+  title: Product Ideas
+  commentary: "> If something is too expensive for most people to buy, standardize
+    and produce in volume.\r\n>\r\n> If later it becomes so cheap that people are
+    no longer price sensitive, make an artisan version.\r\n>\r\n> This is an eternal
+    commercial loop.\r\n\r\nI think about this tweet a lot."
+  date: 2021-10-27
+  tags:
+  - twitter
+- !ruby/struct:PinboardBookmark
+  href: https://interconnected.org/home/2021/09/01/gods
+  title: Pantheons of gods map to the shapes of complex systems (Interconnected)
+  commentary: "> Economists are priests of the economy.\r\n\r\nEconomy as religion
+    is an idea I've been tugging on. Especially when reading _Debt: The First 5000
+    Years_. [Matt Webb](https://interconnected.org/) expands on this idea much more
+    eloquently than I have."
+  date: 2021-09-16
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.huffpost.com/entry/the-30-second-habit-that-_b_4808632
+  title: The 30 Second Habit That Can Have a Big Impact On Your Life
+  commentary: "> Immediately after every lecture, meeting, or any significant experience,
+    take 30 seconds — no more, no less — to write down the most important points.
+    If you always do just this, said his grandfather, and even if you only do this,
+    with no other revision, you will be okay."
+  date: 2020-12-08
+  tags:
+  - habits
+- !ruby/struct:PinboardBookmark
+  href: https://increment.com/remote/code-is-sourdough/
+  title: Code is sourdough
+  commentary: A great metaphor for maintaining a codebase over the life of the project.
+  date: 2020-12-08
+  tags:
+  - programming
+- !ruby/struct:PinboardBookmark
+  href: https://www.danielsen.com/jokes/objecttoaster.txt
+  title: Object Toaster
+  commentary: A parable on the king's requirements and invention of a toaster.
+  date: 2020-10-19
+  tags:
+  - programming
+- !ruby/struct:PinboardBookmark
+  href: https://upgames.dev/
+  title: Up Games
+  commentary: Single player Scrabble that will accept my slang plays? Sign me up.
+  date: 2020-10-07
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://thume.ca/2019/03/03/my-tungsten-cube/
+  title: My Tungsten Cube
+  commentary: Something to compliment the rubber duck on a programmer's desk.
+  date: 2020-10-07
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.benkuhn.net/attention/
+  title: Attention is your scarcest resource
+  commentary: Great insights on how to embrace the scarcity, and use it wisely.
+  date: 2020-10-07
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.amitmerchant.com/how-to-detect-fullscreen-mode-using-css/
+  title: How to detect fullscreen mode using CSS
+  commentary: A useful technique for leaning into CSS for practical presentation needs.
+  date: 2020-09-21
+  tags:
+  - css
+  - html
+- !ruby/struct:PinboardBookmark
+  href: https://www.belter.io/eleventy-sass-workflow/
+  title: Duncan McDougall's Eleventy + SCSS/SASS Setup
+  commentary: Eleventy doesn't have any processing for styles or scripts out of the
+    box. Which is kind of a feature when you're looking for a non-prescriptive tool.
+    This post was helpful in creating a very simple setup for compiling sass, and
+    getting it into the page.
+  date: 2020-09-15
+  tags:
+  - css
+  - scss
+  - javascript
+  - eleventy
+- !ruby/struct:PinboardBookmark
+  href: https://web.dev/change-password-url/
+  title: Help users change passwords easily by adding a well-known URL
+  commentary: Well Known URLs are a new-to-me convention that I find interesting.
+  date: 2020-09-02
+  tags:
+  - web
+- !ruby/struct:PinboardBookmark
+  href: https://stylestage.dev/
+  title: Style Stage
+  commentary: The spiritual successor of the CSS Zen Garden.
+  date: 2020-08-27
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/feedparser/feedparser
+  title: FeedParser Gem
+  commentary: A web feed parser and normalizer. Supports Atom, RSS, & JSON Feed.
+  date: 2020-08-27
+  tags:
+  - rss
+  - ruby
+  - github
+- !ruby/struct:PinboardBookmark
+  href: http://feedjira.com/
+  title: Feedjira
+  commentary: A ruby gem for parsing RSS feeds. Supports RSS and Atom feeds.
+  date: 2020-08-27
+  tags:
+  - ruby
+  - rss
+- !ruby/struct:PinboardBookmark
+  href: http://greatday.com/motivate/180516.html
+  title: Confident humility
+  commentary: "> Whatever you’re doing, a sense of superiority will make you worse
+    at it. Humility, on the other hand, will make you better.\n> \n> The moment you
+    think you’ve got it all figured out, your progress stops. Instead, continue to
+    advance and improve by reminding yourself how much more there will always be to
+    discover.\n> \n> Confidence is positive and empowering, but arrogance is deadly.
+    Be confident, but not at the expense of your respect for others.\n>\n> Don’t burn
+    up all your energy proving how great you are. Invest your time and energy being
+    thoughtful and helpful.\n>\n> See the victories not as proof of your supremacy,
+    but as opportunities to offer more value to life. See the defeats not as personal
+    affronts, but as chances to learn and grow stronger.\n>\n> Take care not to waste
+    your time in delusions of grandeur. Embrace the power of confident humility, and
+    live well."
+  date: 2020-08-27
+  tags:
+  - advice
+- !ruby/struct:PinboardBookmark
+  href: https://www.wavelength.zone/
+  title: Wavelength
+  commentary: ">  A telepathic party game"
+  date: 2020-08-27
+  tags:
+  - games
+- !ruby/struct:PinboardBookmark
+  href: https://digest.bps.org.uk/2018/07/11/performing-meaningless-rituals-boosts-our-self-control-through-making-us-feel-more-self-disciplined/
+  title: Performing meaningless rituals boosts our self-control through making us
+    feel more self-disciplined
+  commentary: The discipline of gathering links and posting them to a website, for
+    example.
+  date: 2020-08-27
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://polypane.app/blog/the-complete-guide-to-css-media-queries/
+  title: The complete guide to CSS media queries
+  commentary: An article that delivers on its title. Really helpful to put some terms
+    and definitions around the parts of a media query that are relied on every day.
+  date: 2020-08-27
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://mavo.io/
+  title: Mavo
+  commentary: ">  A new, approachable way to create Web applications\r\n\r\nThis is
+    an extremely interesting idea. Make your site editable in place with a backing
+    data store, and some markup."
+  date: 2020-08-27
+  tags:
+  - html
+- !ruby/struct:PinboardBookmark
+  href: https://increment.com/frontend/a-users-guide-to-css-variables/
+  title: A user’s guide to CSS variables
+  commentary: I've recently been jumping back into the world of CSS development. I'm
+    so thankful for the invention of CSS variables, and this article is a great place
+    to get familiarized with them.
+  date: 2020-08-27
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://kk.org/thetechnium/68-bits-of-unsolicited-advice/
+  title: 68 Bits of Unsolicited Advice
+  commentary: From someone celebrating their 68th birthday. I'm a sucker for these
+    kinds of lists.
+  date: 2020-08-27
+  tags:
+  - life
+  - advice
+- !ruby/struct:PinboardBookmark
+  href: https://3dtransforms.desandro.com/
+  title: Intro to CSS 3D transforms
+  commentary: The front-end heavy work I was entrenched in years ago would love the
+    abilities that CSS provides out of the box these days.
+  date: 2020-08-27
+  tags:
+  - html
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://shauninman.com/archive/2017/02/04/little_fingers
+  title: Little Fingers
+  commentary: A MacOS utility for disabling the keyboard. Particularly handy while
+    kids are doing school from home on your devices.
+  date: 2020-08-27
+  tags:
+  - mac
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/toptal/active-job-style-guide
+  title: ActiveJob Style Guide
+  commentary: "> This Background Jobs style guide is a list of best practices working
+    with Ruby background jobs.\r\n\r\nThis guide arrived at many of the conclusions
+    I've arrived at while leaning into `ActiveJob`, and I learned a thing or two along
+    the way."
+  date: 2020-08-27
+  tags:
+  - rails
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://www.devdungeon.com/content/enhanced-shell-scripting-ruby
+  title: Enhanced Shell Scripting with Ruby
+  commentary: For those of us who like doing as much as possible in Ruby.
+  date: 2020-08-27
+  tags:
+  - shell
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://jamesclear.com/great-speeches
+  title: Famous Speeches
+  commentary: James Clear's growing collection of the greatest species of all-time.
+  date: 2020-08-27
+  tags:
+  - learning
+  - thinking
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/excid3/noticed
+  title: noticed
+  commentary: Notifications for Ruby on Rails applications.
+  date: 2020-08-27
+  tags:
+  - ruby
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: https://gerireid.com/forms.html
+  title: Forms best practice
+  commentary: Easy to grok, actionable advice about how to design forms that people
+    will fill out reliably.
+  date: 2020-08-27
+  tags:
+  - forms
+  - accessibility
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/localmed/ruby-macaroons
+  title: A Ruby Macaroon Library
+  commentary: "> Macaroons, like cookies, are a form of bearer credential. Unlike
+    opaque tokens, macaroons embed caveats that define specific authorization requirements
+    for the target service, the service that issued the root macaroon and which is
+    capable of verifying the integrity of macaroons it recieves.\r\n\r\nIf it means
+    I can avoid JavaScript Web Tokens, I'm interested in exploring further."
+  date: 2020-08-27
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://us-coffee-roasters.com/
+  title: US Coffee Roasters
+  commentary: An enumeration of the coffee roaster across the nifty fifty United States.
+  date: 2020-08-27
+  tags:
+  - coffee
+- !ruby/struct:PinboardBookmark
+  href: https://every-layout.dev/
+  title: Every Layout
+  commentary: A paid product to learn how to layout content with css. Appears robust.
+  date: 2020-08-27
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://vadimdemedes.com/posts/ink-3
+  title: Ink 3
+  commentary: Building command line applications using React.
+  date: 2020-08-27
+  tags:
+  - javascript
+  - react
+- !ruby/struct:PinboardBookmark
+  href: https://jamiebuilds.github.io/tinykeys/
+  title: tinykeys
+  commentary: A tiny library for adding keyboard shortcuts in JavaScript.
+  date: 2020-08-27
+  tags:
+  - javascript
+  - github
+- !ruby/struct:PinboardBookmark
+  href: https://christianheilmann.com/2020/07/06/always-bet-on-html-being-misunderstood/
+  title: Always bet on HTML...being misunderstood
+  commentary: A great read on the promise and peril of leaning into tried and true
+    semantic HTML.
+  date: 2020-08-26
+  tags:
+  - html
+- !ruby/struct:PinboardBookmark
+  href: https://html5up.net/
+  title: HTML5 UP!
+  commentary: Responsive HTML5 and CSS3 templates released under the The Creative
+    Commons Attribution 3.0 License. If you wanna ditch the license, it's only $19
+    at [pixelarity.com](https://pixelarity.com).
+  date: 2020-08-26
+  tags:
+  - html
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://boringrails.com/articles/hovercards-stimulus/
+  title: Building GitHub-style Hovercards with StimulusJS and HTML-over-the-wire
+  commentary: For starters, I love the domain name [boringrails.com](https://boringrails.com).
+    This tutorial delivers on the title of building some highly dynamic interaction
+    with a few JavaScript sprinkles.
+  date: 2020-08-26
+  tags:
+  - rails
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://inertiajs.com/
+  title: Inertia.js
+  commentary: Self-billed as  _The Modern Monolith_. My read is that it's a protocol
+    for how to structure your `ajax` interactions to have predictable re-rendering
+    when receiving a response.
+  date: 2020-08-26
+  tags:
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/Netflix/pollyjs
+  title: Polly.js
+  commentary: Record, Replay, and Stub HTTP Interactions in JavaScript. A project
+    on GitHub by Netflix.
+  date: 2020-08-26
+  tags:
+  - testing
+  - javascript
+  - github
+- !ruby/struct:PinboardBookmark
+  href: https://jonathanstark.com/hbin
+  title: Hourly Billing Is Nuts
+  commentary: Jonathan's Stark's thesis is pretty easy to grok. This has been my intuition
+    for a long time, but he's got the goods on how to make it a reality.
+  date: 2020-08-26
+  tags:
+  - business
+- !ruby/struct:PinboardBookmark
+  href: https://stackingthebricks.com/how-blogs-broke-the-web/
+  title: How the Blog Broke the Web
+  commentary: Amy Hoy's got a theory on how the web went south, and I am nodding in
+    agreement with every argument.
+  date: 2020-08-26
+  tags:
+  - blogging
+  - web
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/LenMarkidan/status/1293556562393534464?s=20
+  title: Len Markidan's Cooking Tips
+  commentary: A Twitter thread with a bunch of practical tips for improving as an
+    at-home chef.
+  date: 2020-08-26
+  tags:
+  - cooking
+- !ruby/struct:PinboardBookmark
+  href: https://tomcritchlow.com/2019/02/17/building-digital-garden/
+  title: Building a digital garden
+  commentary: Tom Critchlow has some thoughts on how to build a digital garden, and
+    I'm digging them.
+  date: 2020-08-26
+  tags:
+  - blog
+- !ruby/struct:PinboardBookmark
+  href: https://icons8.com/
+  title: Icons8
+  commentary: Free icons, music, stock photos, and vectors. Could be useful in a pinch.
+  date: 2020-08-26
+  tags:
+  - icons
+  - free
+- !ruby/struct:PinboardBookmark
+  href: https://railsbytes.com/
+  title: Rails Bytes
+  commentary: A mechanism for quickly adding behavior to a Rails application. Like
+    `bin/rails generate scaffold`... but in the cloud.
+  date: 2020-08-26
+  tags:
+  - rails
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://www.swyx.io/writing/rsi-tips/
+  title: Notes on RSI for Developers Who Don't Have It (Yet)
+  commentary: Some practical tips for desk-work ergonomics.
+  date: 2020-08-26
+  tags:
+  - ergonomics
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/stimulus-use/stimulus-use
+  title: stimulus-use
+  commentary: A collection of composable behaviors for your Stimulus Controllers.
+    The spirit of this effort is to bring the reusability of React hooks to Stimulusjs,
+    but time will tell if the idea can span the paradigm differences..
+  date: 2020-06-22
+  tags:
+  - javascript
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: https://untools.co/
+  title: Untools
+  commentary: Self described as _tools for better thinking_. Strategies to get you
+    off of the screen, and into thinking.
+  date: 2020-06-22
+  tags:
+  - tools
+- !ruby/struct:PinboardBookmark
+  href: https://www.dekudeals.com/
+  title: Deku Deals
+  commentary: "> Nintendo Switch price tracking and wishlist notifications\r\n\r\nI
+    started building something like this on AWS when I wanted to wait for Celeste
+    to go back on sale. I'm so happy somebody else did it and I can delete those stale
+    resources."
+  date: 2020-05-22
+  tags:
+  - videogames
+- !ruby/struct:PinboardBookmark
+  href: https://www.jeremiahlee.com/posts/failed-squad-goals/
+  title: 'Spotify''s Failed #SquadGoals'
+  commentary: If it sounds too abstract to be functional, it just may be.
+  date: 2020-05-11
+  tags:
+  - business
+  - organization
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/sindresorhus/slugify
+  title: github.com/sindresorhus/slugify
+  commentary: A JavaScript utility for turning a human readable string into a slug
+    suitable for URL.
+  date: 2020-05-11
+  tags:
+  - javascript
+  - github
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/Simonwep/pickr
+  title: github.com/simonwep/pickr
+  commentary: Flat, simple, multi-themed, responsive and hackable Color-Picker library.
+    No dependencies, no jQuery. Compatible with all CSS Frameworks e.g. Bootstrap,
+    Materialize. Supports alpha channel, rgba, hsla, hsva and more!
+  date: 2020-05-11
+  tags:
+  - javascript
+  - GitHub
+- !ruby/struct:PinboardBookmark
+  href: https://jamstackfns.com/
+  title: jamstackfns.com
+  commentary: Self described as _the best serverless functions for JAMstack applications_.
+    I haven't made use of these, but the do _appear_ useful for some common needs
+    of the JAMstack.
+  date: 2020-05-04
+  tags:
+  - jamstack
+- !ruby/struct:PinboardBookmark
+  href: https://zoomerbackgrounds.com/
+  title: ZoomerBackgrounds
+  commentary: A collection of backgrounds to use on any green screen, zoom or otherwise.
+  date: 2020-05-04
+  tags:
+  - tools
+- !ruby/struct:PinboardBookmark
+  href: https://poolors.com/
+  title: Poolors
+  commentary: Generate unique color palettes.
+  date: 2020-05-04
+  tags:
+  - tools
+  - design
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/bansal-io/pattern.css
+  title: github.com/bansal-io/pattern.css
+  commentary: CSS only library to fill empty background with beautiful patterns.
+  date: 2020-05-04
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://chasem.co/2019/09/mvp-dark-mode
+  title: Minimum viable dark mode
+  commentary: Chase McCoy offers a minimal approach to begin supporting Dark Mode.
+    I'd love to kick the tires on this and see how it handles in real life.
+  date: 2020-05-04
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://www.karltarvas.com/2019/12/18/to-be-a-good-software-engineer.html
+  title: To be a good software engineer, become a French skeptic
+  commentary: "> So when someone asks you for something, be it your time, thoughts,
+    or effort, be skeptical and be French. Ask “why” and (mostly) say “no”. It’s good
+    for you."
+  date: 2020-04-18
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://fsharpforfunandprofit.com/rop/
+  title: Railway Oriented Programming
+  commentary: Thinking as a railway conductor serves as an interesting approach for
+    making fault tolerant systems.
+  date: 2020-04-18
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://blog.cloudflare.com/the-history-of-the-url/
+  title: The History of the URL
+  commentary: A long read, but fun to understand the humble URL that we depend on
+    all day every day.
+  date: 2020-03-16
+  tags:
+  - web
+- !ruby/struct:PinboardBookmark
+  href: https://codepen.io/enbee81/full/yLyrmyg
+  title: Diagonal Layouts in 2020
+  commentary: A nice playground for diagonal website layouts. Interact-able and everything!
+  date: 2020-03-09
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://css-tricks.com/a-complete-guide-to-data-attributes/
+  title: A Complete Guide to Data Attributes
+  commentary: CSS Tricks is at it again with a focused article on an API we take for
+    granted every day. Data Attributes are still the best-in-class solution for laying
+    behavior onto Plain Old HTML.
+  date: 2020-03-09
+  tags:
+  - html
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://www.pagedjs.org/
+  title: Paged.js
+  commentary: Conventions for laying out PDF printable content. Could prove useful
+    when you get around to writing that book.
+  date: 2020-03-09
+  tags:
+  - pdf
+  - publishing
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://lucaguidi.com/2020/03/04/hanamiapi-on-amazon-aws-lambda/
+  title: Hanami::API on Amazon AWS Lambda
+  commentary: A very compelling idea for serving a Rack application on AWS Lambda.
+    As long as the Ruby footprint is small enough, I think this could be a really
+    nice deployment story!
+  date: 2020-03-06
+  tags:
+  - ruby
+  - lambda
+- !ruby/struct:PinboardBookmark
+  href: https://www.inc.com/melanie-curtin/in-an-8-hour-day-the-average-worker-is-productive-for-this-many-hours.html
+  title: In an 8-Hour Day, the Average Worker Is Productive for This Many Hours
+  commentary: 'TLDR: 3. 3 hours of 8. If you focus for even half the time, you can
+    stand out.'
+  date: 2020-02-28
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://nts.strzibny.name/how-to-test-static-sites-with-rspec-capybara-and-webkit/
+  title: How to test static sites with RSpec, Capybara, and Webkit
+  commentary: I’ve long had this idea in the back of my mind. It’s nice to see it
+    executed elsewhere, and establish a baseline for the usefulness of automated test
+    on even “simple” projects.
+  date: 2020-02-28
+  tags:
+  - ruby
+  - testing
+- !ruby/struct:PinboardBookmark
+  href: https://www.smashingmagazine.com/2020/02/understanding-css-grid-template-areas/
+  title: 'Understanding CSS Grid: Grid Template Areas'
+  commentary: I haven't had a cache to dig in on CSS Grid, but from a quick glance
+    at this tutorial, it seems like the tool I've wanted many times in the past.
+  date: 2020-02-21
+  tags:
+  - css
+- !ruby/struct:PinboardBookmark
+  href: https://accidentaltechnologist.com/ruby-on-rails/11-ruby-on-rails-podcasts-worth-your-time/
+  title: 11 Ruby on Rails Podcasts Worth Your Time
+  commentary: If you're ever looking for another Ruby podcast, this page has some
+    recommendations.
+  date: 2020-02-20
+  tags:
+  - ruby
+  - podcast
+- !ruby/struct:PinboardBookmark
+  href: http://gavinmiller.io/2020/how-i-mitmd-rubygems-org-kinda/
+  title: How I MITM'd rubygems.org ... Kinda
+  commentary: A really fun investigation into how much damage you can do with one
+    person's typo.
+  date: 2020-02-20
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://miragejs.com/
+  title: Mirage JS
+  commentary: '"An API mocking library for frontend developers". Seems powerful for
+    stubbing out all kinds of data that will eventually have a real source.'
+  date: 2020-02-18
+  tags:
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://jamesclear.com/inversion
+  title: 'Inversion: The Crucial Thinking Skill Nobody Ever Taught You'
+  commentary: "James Clear of [Atomic Habits][] fame offers up this nice little insight
+    on the power of looking at things from the opposite angle\r\n\r\n[atomic habits]:
+    https://amzn.to/39mdpuz."
+  date: 2020-02-05
+  tags:
+  - ideas
+- !ruby/struct:PinboardBookmark
+  href: https://www.freeskatemag.com/2020/01/28/greed-rules-everything-except-nature/
+  title: "\U0001F6F9 Greed Rules Everything Except Nature"
+  commentary: A skate video. Released in 2020. Feels strait out of the 1990s. Nostalgia
+    weighs heavy.
+  date: 2020-01-30
+  tags:
+  - skateboarding
+- !ruby/struct:PinboardBookmark
+  href: https://docs.stimulusreflex.com/
+  title: StimulusReflex
+  commentary: An interesting idea for building on top of `Stimulus`, `ActionController`,
+    and  `ActionCable` to coordinate patterns of server-client communication. HTML-over-the-wire
+    sounds good to me.
+  date: 2020-01-23
+  tags:
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: https://www.youtube.com/watch?v=MUHlVdqRlPA&feature=emb_title
+  title: Bit Brigade performing Mega Man 2
+  commentary: This is my kind of performance art. Mega Man 2 holds a special place
+    in my heart, and I fully endorse this message.
+  date: 2020-01-23
+  tags:
+  - videogames
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/suspiriadam/status/1216731407642480641
+  title: "@suspiriadam on The Oscars"
+  commentary: "> not a single oscar nomination for Carly Rae Jepsen's EMOTION... just
+    because it \"isn't a film\" and \"came out in 2015\"...disgusting\r\n\r\nThis
+    will be an evergreen tweet in my book. Emotion is the album of the millennium."
+  date: 2020-01-14
+  tags:
+  - music
+- !ruby/struct:PinboardBookmark
+  href: http://strftimer.com/
+  title: strftimer
+  commentary: A Ruby `strftime` generator. Type in the desired human readable format,
+    get back the `strftime` formatting string.
+  date: 2020-01-07
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://pakyow.com/
+  title: Pakyow
+  commentary: Self billed as a “Design First Web Framework”. Seems like an interesting
+    concept for teams.
+  date: 2020-01-06
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://thoughtbot.com/blog/five-tips-for-more-helpful-code-reviews
+  title: 5 Tips for More Helpful Code Reviews
+  commentary: A brief introduction to making yourself a more valuable code reviewer.
+  date: 2020-01-02
+  tags:
+  - teams
+- !ruby/struct:PinboardBookmark
+  href: https://www.youtube.com/watch?v=FZUfiW3W1KY
+  title: NEON PALM MALL
+  commentary: "Today I learned that [vaporwave][] is a genre of music, and I am into
+    it.\r\n\r\n[vaporwave]: https://en.wikipedia.org/wiki/Vaporwave"
+  date: 2020-01-02
+  tags:
+  - music
+- !ruby/struct:PinboardBookmark
+  href: https://plato.stanford.edu/index.html
+  title: Stanford Encyclopedia of Philosophy
+  commentary: Seems like a good place to start a basic study of philosophy.
+  date: 2020-01-02
+  tags:
+  - philosophy
+- !ruby/struct:PinboardBookmark
+  href: http://renewablewealth.com/the-parable-of-the-mexican-fisherman/
+  title: The Parable of the Mexican Fisherman
+  commentary: I've heard this parable in a variety of context, and no one seems to
+    know the origin. At least this link provides a place where it's written down succinctly.
+  date: 2020-01-02
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.vrk.dev/2019/07/11/why-is-modern-web-development-so-complicated-a-long-yet-hasty-explanation-part-1/
+  title: Why is modern web development so complicated?
+  commentary: A great explanation of how we got to where we’re at as an industry.
+  date: 2020-01-01
+  tags:
+  - webdev
+- !ruby/struct:PinboardBookmark
+  href: https://coderwall.com/p/gghtkq/rails-internal-requests
+  title: Internal Requests in Rails
+  commentary: This is the method I built on top of for building a static site generator
+    in Rails.
+  date: 2020-01-01
+  tags:
+  - rails
+  - ruby
+  - rack
+- !ruby/struct:PinboardBookmark
+  href: https://supergood.software/working-around-activerecord-callbacks/
+  title: Working Around ActiveRecord Callbacks
+  commentary: "This is a great pattern for opting out of named callbacks.\r\nNever
+    underestimate the versatility of an `attr_accessor`!"
+  date: 2019-12-16
+  tags:
+  - ruby
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/aniftyco/react-provider-tree
+  title: aniftyco/react-provider-tree
+  commentary: '"Break out of provider tree hell." As I move more state management
+    into the React tree with hooks and context, this is becoming increasingly useful.'
+  date: 2019-12-16
+  tags:
+  - github
+  - react
+- !ruby/struct:PinboardBookmark
+  href: https://en.m.wikipedia.org/wiki/Paradox_of_tolerance
+  title: '"Paradox of tolerance" on Wikipedia'
+  commentary: "> The paradox of tolerance states that if a society is tolerant without
+    limit, its ability to be tolerant is eventually seized or destroyed by the intolerant."
+  date: 2019-12-10
+  tags:
+  - quote
+- !ruby/struct:PinboardBookmark
+  href: https://www.nytimes.com/video/dining/100000002542844/how-to-carve-a-turkey.html
+  title: How to Carve a Turkey
+  commentary: NYTimes.com is bringing the truth in this short video about how to effectively
+    carve a turkey. Solid advice for Thanksgiving day.
+  date: 2019-12-10
+  tags:
+  - cooking
+- !ruby/struct:PinboardBookmark
+  href: http://invisibleinkblog.blogspot.com/2006/03/on-shoulders-of-giants.html
+  title: On The Shoulders of Giants
+  commentary: "> \"Sometimes it takes a long time to sound like yourself.\" \r\n\r\nA
+    refreshing challenge to be unoriginal, and pay tribute to those who do well what
+    we want to do well."
+  date: 2019-12-10
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/dhh/status/1201870975228186624?s=20
+  title: Gall's Law
+  commentary: "> A complex system that works is invariably found to have evolved from
+    a simple system that worked. A complex system designed from scratch never works
+    and cannot be patched up to make it work. You have to start over with a working
+    simple system."
+  date: 2019-12-10
+  tags:
+  - quote
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/MattSmethurst/status/1202234149479821312?s=20
+  title: A Tweet about virgin births
+  commentary: "> Christians believe in the virgin birth of Jesus. Materialists believe
+    in the virgin birth of the cosmos. \r\n>\r\n> Choose your miracle.\r\n\r\nAt some
+    point, we're all putting our faith in _something_."
+  date: 2019-12-10
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://rework.fm/venture-capital-and-control-with-david-teare/
+  title: Venture Capital and Control with Dave Teare
+  commentary: This was an excellent episode of the Rework Podcast. Dave Teare is the
+    founder of 1Password, and he and DHH talk venture capital.
+  date: 2019-12-10
+  tags:
+  - podcast
+- !ruby/struct:PinboardBookmark
+  href: https://www.happyhues.co/
+  title: Happy Hues
+  commentary: '"Curated colors in context." A beautiful little site for previewing
+    a color palette in the context of a web application.'
+  date: 2019-12-10
+  tags:
+  - design
+- !ruby/struct:PinboardBookmark
+  href: https://creepyface.io/
+  title: Creepyface
+  commentary: A Javascript library that makes your face look at the pointer. Ideal
+    for resumes or team sites.
+  date: 2019-12-10
+  tags:
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://codon.com/refactoring-ruby-with-monads
+  title: Refactoring Ruby with Monads
+  commentary: A great introduction to the scary-word that is "monads". Monads have
+    never felt more useful, usable, and approachable.
+  date: 2019-12-10
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://apps.apple.com/us/app/flow-focus-and-break-timer/id1423210932?mt=12
+  title: "‎Flow Focus and Break Timer"
+  commentary: A minimal MacOS app for working the pomodoro method.
+  date: 2019-12-10
+  tags:
+  - mac
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/sindresorhus/pure
+  title: 'pure: Pretty, minimal and fast ZSH prompt'
+  commentary: Very useful now that MacOS has transitioned to zsh by default.
+  date: 2019-12-10
+  tags:
+  - shell
+  - zsh
+- !ruby/struct:PinboardBookmark
+  href: https://tyke.app/
+  title: Tyke
+  commentary: A small scratchpad in the MacOS menu bar. Great for removing formatting,
+    and freeing up your clipboard.
+  date: 2019-12-10
+  tags:
+  - mac
+- !ruby/struct:PinboardBookmark
+  href: https://lynnandtonic.com/
+  title: lynnandtonic.com
+  commentary: One of the most inspiring personal websites I've ever seen. A lot of
+    gems in all the things Lynn has shared over the years.
+  date: 2019-11-25
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://chartkick.com/
+  title: Chartkick
+  commentary: Create beautiful JavaScript charts with one line of Ruby. There's many
+    a Rails CRUD project where I can imagine having benefited from knowing about this
+    library.
+  date: 2019-11-25
+  tags:
+  - rails
+  - ruby
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://carbon.now.sh/
+  title: Carbon
+  commentary: "> Create and share beautiful images of your source code."
+  date: 2019-11-09
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/cindyalvarez/status/1182373668577370112?s=17
+  title: Planning advice found on Twitter
+  commentary: "> Every time I make myself write out\r\n>\r\n> We are doing \\_\\_\\_\\_\\_\r\n>
+    Because we see the problem of \\_\\_\\_\\_\\_\r\n> We know it's a problem because
+    \\_\\_\\_\\_\\_\r\n> If we don't fix it, we'll see \\_\\_\\_\\_\\_\r\n> We'll
+    know we've fixed it when we get \\_\\_\\_\\_\\_\r\n>\r\n> the rest of the conversation/project/doc
+    goes SO much easier."
+  date: 2019-11-09
+  tags:
+  - twitter
+  - quote
+- !ruby/struct:PinboardBookmark
+  href: https://www.analogue.co/pocket/
+  title: Analogue Pocket
+  commentary: One handheld gaming hardware to rule them all. Accepts a slew of cartridges
+    to play all the games I regrettably traded away years ago.
+  date: 2019-11-09
+  tags:
+  - games
+- !ruby/struct:PinboardBookmark
+  href: http://blog.testdouble.com/posts/2019-10-15-lets-hash-this-out/
+  title: Let's hash this out
+  commentary: A compelling case for sticking to Ruby's plain old `Hash` as much as
+    possible. I've lived the pain of serialization errors in higher level of abstractions,
+    so I'd vouch for stick to low level primitives as much as possible when it comes
+    to persistence.
+  date: 2019-11-09
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/serhii-londar/open-source-mac-os-apps
+  title: Awesome list of open source applications for macOS.
+  commentary: A GitHub repo with links to a bunch'a open source macOS apps.
+  date: 2019-11-09
+  tags:
+  - mac
+- !ruby/struct:PinboardBookmark
+  href: https://scriptingosx.com/
+  title: Scripting OS X
+  commentary: I found this site because macOS Catalina transitioned the default shell
+    from `bash` to `zsh`, and am always trying to embrace defaults. A lot of great
+    information for becoming more useful in the macOS Terminal.
+  date: 2019-11-09
+  tags:
+  - mac
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/bryanl/status/1192408098457174016?s=17
+  title: Causes and symptoms
+  commentary: "> The secret to being a senior engineer: Focus on causes rather than
+    symptoms\r\n>\r\n> The secret to being a staff engineer: Enable your group to
+    focus on causes rather than symptoms\r\n> \r\n> The secret to being a principal
+    level engineer: Enable your org to focus on causes rather than symptoms"
+  date: 2019-11-09
+  tags:
+  - quote
+- !ruby/struct:PinboardBookmark
+  href: https://gist.github.com/JeffBelback/5687bb02f3618965ca8f
+  title: Destroy all Docker Containers and Images
+  commentary: This gist was very helpful when I needed to obliterate everything that
+    Docker had ever built.
+  date: 2019-11-09
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/deezer/spleeter
+  title: spleeter
+  commentary: Command line tool to extract voices, drums, bass... anything from a
+    song.
+  date: 2019-11-09
+  tags:
+  - python
+  - music
+- !ruby/struct:PinboardBookmark
+  href: https://blog.bigbinary.com/2014/09/21/tricks-and-tips-for-using-fixtures-in-rails.html
+  title: Tricks and Tips for using Fixtures effectively in Rails
+  commentary: 'The biggest takeaway: don''t use ids unless absolutely necessary. Rely
+    on the autogenerated, deterministic ids, and you get a bunch of behavior for free.'
+  date: 2019-11-09
+  tags:
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/deathcarpets/status/1191344956331429889?s=17
+  title: Nostalgia for brokenness
+  commentary: "> Whatever you now find weird, ugly, uncomfortable and nasty about
+    a new medium will surely become it's signature. -Brian Eno (1995)"
+  date: 2019-11-09
+  tags:
+  - quote
+- !ruby/struct:PinboardBookmark
+  href: https://daringfireball.net/linked/2019/10/26/mcquarrie-
+  title: Focus Entirely on Execution and Not on Result
+  commentary: Daring Fireball offering commentary on the idea from Christopher McQuarrie.
+    You can control the inputs, but not the outputs. Focus on consistently delivering
+    inputs.
+  date: 2019-11-09
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/tannerlinsley/react-query
+  title: Hooks for fetching, caching and updating asynchronous data in React
+  commentary: This appears to be a well thought out solution for fetching data in
+    a post-hooks, pre-Suspense world. A lot of hand rolled patterns codified into
+    consistent solutions seems worth a shake.
+  date: 2019-11-09
+  tags:
+  - react
+- !ruby/struct:PinboardBookmark
+  href: https://kellysutton.com/2019/10/29/taming-large-rails-codebases-with-private-activerecord-models.html
+  title: Taming Large Rails Applications with Private ActiveRecord Models
+  commentary: A compelling idea for sticking with `ActiveRecord` and making explicit
+    domain objects. I’m eager to kick the tires on this idea.
+  date: 2019-11-01
+  tags:
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: https://medium.com/@dylansreile/rails-6-0-new-framework-defaults-what-they-do-and-how-to-safely-uncomment-them-586146f371e8
+  title: 'Rails 6.0 new framework defaults: what they do and how to safely uncomment
+    them'
+  commentary: I would love to see a post like this come with the release notes of
+    every Rails version. Extremely helpful.
+  date: 2019-10-31
+  tags:
+  - rails
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/Alra3ees/status/1181028153944358913?s=17
+  title: Linux directories cheat sheet
+  commentary: A tweet sized cheat sheet of what all those abbreviated directory names
+    mean.
+  date: 2019-10-10
+  tags:
+  - linux
+- !ruby/struct:PinboardBookmark
+  href: https://catc.github.io/react-timekeeper/
+  title: React Timekeeper
+  commentary: A React component for picking the time of day. A really nice interaction
+    pattern, modeled off the picker in Google Keep for Android.
+  date: 2019-10-02
+  tags:
+  - react
+- !ruby/struct:PinboardBookmark
+  href: https://twitter.com/kailynnelson/status/1177997045757435904?s=17
+  title: Ask for advice, not feedback.
+  commentary: "> The word “feedback” encourages people to think about the past, not
+    the future. Asking for “advice” instead triggers others to think specifically
+    about what might help someone improve in the future."
+  date: 2019-10-02
+  tags:
+  - twitter
+- !ruby/struct:PinboardBookmark
+  href: https://mobile.twitter.com/i/moments/994601867987619840
+  title: Lit Design Tips
+  commentary: This is the first Twitter moment I have found useful. Practical design
+    tips for someone who wants to gather a few actionable improvements.
+  date: 2019-10-02
+  tags:
+  - twitter
+  - design
+- !ruby/struct:PinboardBookmark
+  href: https://htmlhead.dev/
+  title: htmlhead.dev
+  commentary: A handy reference for all the things that can and should be placed inside
+    the html `<head>` element.
+  date: 2019-10-02
+  tags:
+  - html
+- !ruby/struct:PinboardBookmark
+  href: https://www.rubyguides.com/2019/09/best-ruby-gems/
+  title: 7 Great Ruby Gems Most People Haven't Heard About
+  commentary: I hadn't heard about most of them!
+  date: 2019-10-01
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://johnmaddux.com/2019/09/12/creating-multiple-models-with-form-objects-in-rails/
+  title: Creating multiple models with form objects in Rails
+  commentary: I'm a big fan of leaning into `ActiveModel::Model` to build form objects.
+    This is one of the more strait-forward explanations I've seen.
+  date: 2019-10-01
+  tags:
+  - rails
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/nateware/redis-objects
+  title: Map Redis types directly to Ruby objects
+  commentary: |-
+    I've built toy systems that wrap Redis types with Ruby objects. This solutions seems more substantial than I ever dreamed of.
+
+    I particularly appreciate the emphasis that it is **not** an ORM.
+  date: 2019-10-01
+  tags:
+  - redis
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: https://bookschatter.com/
+  title: BooksChatter
+  commentary: A service that extracts book recommendations from Twitter feeds. [@dhh](https://bookschatter.com/books/dhh)
+    shared the link, which is helpful because he shares lots of books on Twitter.
+  date: 2019-09-12
+  tags:
+  - books
+- !ruby/struct:PinboardBookmark
+  href: https://anildash.com/2018/07/13/unfollowing-everybody/amp/?__twitter_impression=true
+  title: Unfollowing Everybody
+  commentary: Anil Dash's write up about why and how he unfollowed everybody on Twitter
+    is compelling.
+  date: 2019-09-12
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://backgroundchecks.org/justdeleteme/
+  title: Just Delete Me
+  commentary: Self-billed as _a directory of direct links to delete your account from
+    web services_. It also provides useful information about the relative ease of
+    deleting those accounts.
+  date: 2019-09-12
+  tags:
+  - security
+  - privacy
+- !ruby/struct:PinboardBookmark
+  href: https://www.youtube.com/watch?v=qSRrxpdMpVc
+  title: React Native Tutorial for Beginners
+  commentary: A six hour crash course introduction to React Native.
+  date: 2019-09-12
+  tags:
+  - react
+- !ruby/struct:PinboardBookmark
+  href: https://matthewrayfield.com/goodies/popup-pump/
+  title: Popup pump
+  commentary: A fun experiment with popup windows by Matthew Rayfield. I'm excited
+    to see small tinkering like this that make the Internet fun again.
+  date: 2019-09-06
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/timqian/chart.xkcd/blob/master/readme.md
+  title: chart.xkcd
+  commentary: A library for creating charts in the style of xkcd. Uses canvas in the
+    browser.
+  date: 2019-09-05
+  tags:
+  - html
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://vimeo.com/352982792
+  title: Why Your Privacy Is Worth More Than You Think
+  commentary: A video by Duck Duck Go making the case for privacy. Explicitly calls
+    out Facebook and Google for their shady practices. Communicates the concerns in
+    a way you can share with your non "tech" friends.
+  date: 2019-08-28
+  tags:
+  - privacy
+- !ruby/struct:PinboardBookmark
+  href: https://tjcx.me/posts/consumption-distraction/
+  title: Consume less, create more
+  commentary: My dotcomrade [Jeremy Ricketts](https://twitter.com/jeremyricketts)
+    linked to this post that will strike a nerve with a whole lot of folks, myself
+    included. It's not about screen time vs non screen time. It's about consumption
+    vs creativity.
+  date: 2019-08-26
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://bitsofco.de/using-a-headless-browser-to-capture-page-screenshots/
+  title: Using a headless browser to capture page screenshots
+  commentary: "Take screenshots of web pages using headless Chrome.\r\n\r\n```\r\nchrome
+    --headless --disable-gpu --screenshot https://bitsofco.de\r\n```"
+  date: 2019-08-21
+  tags:
+  - web-development
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/CookPete/react-player
+  title: A React component for playing a variety of URLs
+  commentary: A React Component that can play videos from YouTube, Facebook, Twitch,
+    SoundCloud, Streamable, Vimeo, Wistia and DailyMotion.
+  date: 2019-08-21
+  tags:
+  - react
+- !ruby/struct:PinboardBookmark
+  href: https://craigmod.com/essays/fast_software/
+  title: Fast Software, the Best Software
+  commentary: Craig's observations about the trust and reliability implied by the
+    speed of software are spot on. Make it work. Make it fast. Make it faster.
+  date: 2019-08-19
+  tags:
+  - software
+- !ruby/struct:PinboardBookmark
+  href: https://www.honeybadger.io/blog/safeguarding-redis/
+  title: What if I called FLUSHALL on your Redis instance?
+  commentary: Great piece for architecture introspection. Redis has established itself
+    as rock-solidly-reliable in my experience, but there's always user error to protect
+    against!
+  date: 2019-08-19
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://stimulusjs.org/
+  title: Stimulus
+  commentary: |-
+    Basecamp triples down on server rendered HTML with StimulusJS. Having built a similar pattern when transitioning away from BatmanJS years ago, I really appreciate the refinement of the ideas here.
+
+    My only complaint about this project is that they didn't name it Sprinkles. That would have been awesome.
+  date: 2018-08-28
+  tags:
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://github.com/westonganger/spreadsheet_architect
+  title: SpreadsheetArchitect
+  commentary: "> SpreadsheetArchitect lets you turn any activerecord relation or ruby
+    object collection into a XLSX, ODS, or CSV spreadsheet\r\n\r\nThere are several
+    Ruby and Rails projects in my rear view that would have benefited from this tool."
+  date: 2018-06-25
+  tags:
+  - ruby
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: https://toddmotto.com/cache-busting-jekyll-github-pages
+  title: Cache-busting in Jekyll, GitHub pages
+  commentary: A simple approach to busting asset caches on GitHub pages. It could
+    stand to have a little more nuance for a highly trafficked site. But it gets the
+    job done for now!
+  date: 2017-12-31
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://auth0.com/blog/2016/03/23/intro-to-immutable-js/
+  title: Introduction to Immutable.js and Functional Programming Concepts
+  commentary: The article title says exactly what it is. There's a lot of Immutable
+    talk out there, but this long read is a good introduction if you're going to pick
+    only one.
+  date: 2016-03-28
+  tags:
+  - immutable
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: https://www.benburwell.com/posts/configuring-cloudflare-universal-ssl/
+  title: Configuring CloudFlare’s Universal SSL
+  commentary: Ben Burwell provides an excellent tutorial for getting your GitHub Pages
+    behind SSL using CloudFlare's free plan. I was able to follow these instructions
+    and get danott.co setup with SSL in less than 10 minutes.
+  date: 2016-03-22
+  tags:
+  - security
+- !ruby/struct:PinboardBookmark
+  href: https://www.youtube.com/watch?v=oYk8CKH7OhE&feature=youtu.be
+  title: Let's be mainstream! User focused design in Elm
+  commentary: Evan Czaplicki talks about the motivations behind the [Elm programming
+    language](http://elm-lang.org) at the Curry On conference in 2015.
+  date: 2016-03-21
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://www.nemil.com/musings/shinyandnew.html
+  title: Chasing the Shiny and New
+  commentary: A healthy reminder of what programming is and isn't about.
+  date: 2015-09-30
+  tags:
+  - development
+  - programming
+- !ruby/struct:PinboardBookmark
+  href: http://crystal-lang.org/
+  title: Crystal
+  commentary: A new statically type-checked language that wants to read like Ruby.
+  date: 2015-09-18
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: http://blog.honeybadger.io/avoid-these-traps-when-nesting-ruby-modules/
+  title: Avoid these traps when nesting Ruby modules
+  commentary: It turns out that the “inheritance” of a parent’s constants by the child
+    isn’t due to the parent/child relationship. It’s lexical. That means that it’s
+    based on the structure of your code, not on the structure of the objects your
+    code is building.
+  date: 2015-08-27
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: http://andrew.stwrt.ca/posts/vim-ctags/
+  title: Vim and Ctags
+  commentary: A wet-the-appetite introduction to using `ctags` with `vim`.
+  date: 2015-08-25
+  tags:
+  - vim
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: http://www.html5rocks.com/en/tutorials/cors/
+  title: Using CORS
+  commentary: An explanation of CORS that you'll actually use.
+  date: 2015-08-13
+  tags:
+  - cors
+  - javascript
+- !ruby/struct:PinboardBookmark
+  href: http://blog.honeybadger.io/rubys-case-statement-advanced-techniques/
+  title: Ruby's case statement
+  commentary: Ruby's case statement uses the `===` operator behind the scenes. This
+    can be used (or abused) for conciseness and/or cleverness.
+  date: 2015-07-17
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: http://www.sitepoint.com/create-tetromino-puzzle-game-using-swift-getting-started/
+  title: Create a Tetromino Puzzle Game Using Swift
+  commentary: Build a Tetris clone as an exercise in learning SpriteKit and swift.
+  date: 2015-07-05
+  tags:
+  - ios
+  - swift
+  - spritekit
+- !ruby/struct:PinboardBookmark
+  href: https://www.youtube.com/watch?v=1zj7M1LnJV4
+  title: What if the user was a function?
+  commentary: Andre Staltz ask this question at JSConf. Introduces some very interesting
+    ideas about functional programming, and how we can model user/computer interactions.
+  date: 2015-06-13
+  tags:
+  - javascript
+  - react
+  - functional
+- !ruby/struct:PinboardBookmark
+  href: http://blog.webkid.io/replacing-jquery-with-d3/
+  title: Replacing jQuery with D3
+  commentary: Mapping of jQuery concepts to D3 concepts.
+  date: 2015-05-15
+  tags:
+  - jquery
+  - javascript
+  - d3
+- !ruby/struct:PinboardBookmark
+  href: http://blog.plataformatec.com.br/2015/05/nobody-told-me-minitest-was-this-fun/
+  title: Nobody told me Minitest was this fun
+  commentary: I've green-fielded a couple of projects with Minitest lately, and I've
+    been sharing many of the same sentiments. A great writeup of moving from RSpec
+    to Minitest.
+  date: 2015-05-15
+  tags:
+  - rspec
+  - minitest
+  - ruby
+  - rails
+- !ruby/struct:PinboardBookmark
+  href: http://www.justinweiss.com/blog/2015/05/11/a-new-way-to-understand-your-rails-apps-performance/
+  title: A new way to understand your Rails app’s performance
+  commentary: TLDR; Use the rack-mini-profiler to find hot spots in your rails code.
+  date: 2015-05-15
+  tags:
+  - ruby
+  - rails
+  - rack
+- !ruby/struct:PinboardBookmark
+  href: http://keycodes.atjayjo.com/
+  title: Javascript Keyboard Codes, Character Codes, Unicode, HTML Entities
+  commentary: Visualize JavaScript keycodes with this handy browser tool.
+  date: 2015-04-13
+  tags:
+  - javascript
+  - keycode
+- !ruby/struct:PinboardBookmark
+  href: http://www.sitepoint.com/loading-code-ruby/
+  title: Loading Code with Ruby
+  commentary: Learn the how and why of using `require`, `LOAD_PATH`, and `load` in
+    Ruby
+  date: 2015-03-05
+  tags:
+  - ruby
+- !ruby/struct:PinboardBookmark
+  href: http://www.mattsears.com/articles/2011/12/10/minitest-quick-reference
+  title: Minitest Quick Reference
+  commentary: Thanks to Matt Sears for putting together this nice little cheat-sheet
+    style reference for `Minitest`.
+  date: 2015-03-01
+  tags:
+  - ruby
+  - minitest
+  - reference
+  - quick
+  - cheatsheet
+- !ruby/struct:PinboardBookmark
+  href: https://antoine.finkelstein.fr/go-in-ruby/
+  title: Using Go to improve your Ruby application's performance
+  commentary: Communicating between ruby and golang with binaries that just return
+    json.
+  date: 2015-01-23
+  tags:
+  - go
+  - build
+  - ruby
+  - golang
+- !ruby/struct:PinboardBookmark
+  href: https://formkeep.com/
+  title: FormKeep
+  commentary: Form endpoints for designers and developers. Doesn't require any WYSIWYG
+    form building, or obtrusive embed codes. Build your form in your own `html`, and
+    FormKeep takes care of the rest.
+  date: 2014-12-30
+  tags:
+  - forms
+  - thoughtbot
+  - design
+  - input
+  - contact
+- !ruby/struct:PinboardBookmark
+  href: http://nathany.com/good/
+  title: Go Object Oriented Design
+  commentary: How to write object oriented-ish code in Go. Uses Sandi Metz's examples
+    from Practical Object Oriented Design in Ruby as a reference point.
+  date: 2014-12-30
+  tags:
+  - go
+  - object
+  - oriented
+  - sandi
+  - metz
+- !ruby/struct:PinboardBookmark
+  href: http://thepatternlibrary.com/
+  title: The Pattern Library
+  commentary: The Pattern Library is a finely curated collection of tile-able images.
+  date: 2014-01-27
+  tags:
+  - design
+  - tools
+- !ruby/struct:PinboardBookmark
+  href: http://iamfutureproof.com/tools/awareness/
+  title: Awareness App
+  commentary: Awareness will make sure you take breaks, or at least know that you're
+    choosing to ignore breaks.
+  date: 2013-07-23
+  tags:
+  - osx
+  - life
+- !ruby/struct:PinboardBookmark
+  href: http://xip.io/
+  title: 'xip.io: wildcard DNS for everyone'
+  commentary: A wildcard DNS that allows you to seamlessly preview apps on your LAN.
+  date: 2013-07-22
+  tags:
+  - tools
+  - developer
+- !ruby/struct:PinboardBookmark
+  href: http://gettingreal.37signals.com/toc.php
+  title: Getting Real
+  commentary: 37 Signals' first book, completely free online.
+  date: 2013-07-21
+  tags:
+  - books
+  - web
+  - development
+- !ruby/struct:PinboardBookmark
+  href: http://voiceandtone.com/
+  title: Voice and Tone
+  commentary: MailChimp's in-house tool that effectively communicates how important
+    messaging is for different types of content and interaction.
+  date: 2013-07-21
+  tags:
+  - content
+  - strategy
+- !ruby/struct:PinboardBookmark
+  href: http://javascript.crockford.com/
+  title: Douglas Crockford's JavaScript
+  commentary: Douglas Crockford wrote the book on JavaScript. His site contains some
+    longstanding, time-tested references.
+  date: 2013-07-21
+  tags:
+  - javascript

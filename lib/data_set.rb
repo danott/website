@@ -6,7 +6,10 @@ class DataSet
   end
 
   def data
-    YAML.safe_load(File.read(path), permitted_classes: [Date])
+    YAML.safe_load(
+      File.read(path),
+      permitted_classes: [Date, PinboardBookmark, Symbol]
+    )
   end
 
   def name

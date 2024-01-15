@@ -21,6 +21,16 @@ task :serve do
   server.start
 end
 
+desc "Download bookmarks from pinboard"
+task :download_pinboard_bookmarks do
+  PinboardBookmark.download
+end
+
+desc "Start an Irb console"
+task :irb do
+  binding.irb
+end
+
 desc "Temporary task to convert old posts"
 task :convert_old_posts do
   old_posts =
