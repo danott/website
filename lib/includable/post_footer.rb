@@ -1,13 +1,13 @@
 module Includable
   class PostFooter
-    attr_reader :data
+    attr_reader :html_target_data
 
-    def initialize(data:)
-      @data = data
+    def initialize(html_target_data)
+      @html_target_data = html_target_data
     end
 
     def to_s
-      ERB.new(template).result_with_hash(date: data.current_page.fetch("date"))
+      ERB.new(template).result_with_hash(date: html_target_data.fetch("date"))
     end
 
     def template

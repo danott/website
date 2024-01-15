@@ -1,16 +1,10 @@
 class BuildData
   attr_reader :targets
   attr_reader :data_sets
-  attr_reader :current_page
 
-  def initialize(targets, data_sets, current_page = nil)
+  def initialize(targets, data_sets)
     @targets = targets
     @data_sets = data_sets
-    @current_page = current_page
-  end
-
-  def for_current_page(next_current_page)
-    self.class.new(targets, data_sets, next_current_page)
   end
 
   def all

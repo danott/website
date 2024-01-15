@@ -16,7 +16,7 @@ class MagicFile
       <<~HTML
         <eval-ruby>Includable::PAGE_DEFAULTS</eval-ruby>
         #{original_content}
-        <eval-ruby>Includable::PostFooter.new(data: self.data)</eval-ruby>
+        <eval-ruby>Includable::PostFooter.new(data)</eval-ruby>
       HTML
     else
       original_content

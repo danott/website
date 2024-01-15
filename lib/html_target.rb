@@ -11,11 +11,7 @@ class HtmlTarget
   end
 
   def hydrate
-    hydrator =
-      MagicElementHydrator.new(
-        content: content,
-        data: Build.data.for_current_page(data)
-      )
+    hydrator = MagicElementHydrator.new(content: content, data: data)
     self.class.new(content: hydrator.hydrate.content, path: path, data: data)
   end
 
