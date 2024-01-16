@@ -1,0 +1,13 @@
+name: Run Tests
+on:
+  workflow_dispatch:
+  push:
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+      - run: bundle exec rake test
