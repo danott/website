@@ -63,7 +63,8 @@ class GitCommitChangelogTarget
           input: "GFM",
           syntax_highlighter: "rouge"
         }
-        Kramdown::Document.new(body, options).to_html.strip
+        content = Kramdown::Document.new(body, options).to_html.strip
+        content + github_footer
       end
 
       def link
@@ -72,6 +73,19 @@ class GitCommitChangelogTarget
 
       def updated
         date.to_s
+      end
+
+      def github_footer
+        address = %w[danott hey.com].join("@")
+        link_without_protocol = link.delete_prefix("https://")
+
+        <<~HTML
+          <p>
+            Thanks for reading via RSS! 
+            Wanna talk about it? 
+            You can <a href="#{link}">comment on GitHub</a> or <a href="mailto:#{address}?subject=Re: #{link_without_protocol}">reply via email</a>.
+          </p>
+        HTML
       end
     end
 end
