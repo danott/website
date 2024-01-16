@@ -1,6 +1,6 @@
 PinboardBookmark =
   Struct.new(:href, :title, :commentary, :date, :tags, keyword_init: true) do
-    PATH = "data/pinboard_bookmarks.yml".freeze
+    PINBOARD_BOOKMARKS_PATH = "data/pinboard_bookmarks.yml".freeze
 
     def self.pull
       auth_token = ENV["DANOTT_DOT_WEBSITE_PINBOARD_AUTH_TOKEN"]
@@ -23,10 +23,16 @@ PinboardBookmark =
     end
 
     def self.download
-      pull.tap { |bookmarks| File.write(PATH, YAML.dump(bookmarks)) }
+      pull.tap do |bookmarks|
+        File.write(PINBOARD_BOOKMARKS_PATH, YAML.dump(bookmarks))
+      end
     end
 
     def self.all
-      File.exists?(PATH) ? DataSet.new(PATH).data : []
+      if File.exists?(PINBOARD_BOOKMARKS_PATH)
+        DataSet.new(PINBOARD_BOOKMARKS_PATH).data
+      else
+        []
+      end
     end
   end

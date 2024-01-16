@@ -8,7 +8,7 @@ HeyWorldEntry =
     :url,
     keyword_init: true
   ) do
-    PATH = "data/hey_world_entries.yml"
+    HEY_WORLD_ENTRIES_PATH = "data/hey_world_entries.yml"
 
     def self.pull
       uri = URI("https://world.hey.com/danott/feed.atom")
@@ -30,11 +30,15 @@ HeyWorldEntry =
       existing = all
       incoming = pull
       merged = (incoming + existing).uniq(&:id).sort_by(&:published)
-      File.write(PATH, YAML.dump(merged))
+      File.write(HEY_WORLD_ENTRIES_PATH, YAML.dump(merged))
       merged
     end
 
     def self.all
-      File.exists?(PATH) ? DataSet.new(PATH).data : []
+      if File.exists?(HEY_WORLD_ENTRIES_PATH)
+        DataSet.new(HEY_WORLD_ENTRIES_PATH).data
+      else
+        []
+      end
     end
   end
