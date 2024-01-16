@@ -42,7 +42,7 @@ class GitCommitChangelogTarget
 
   def commits
     GitCommitJson.generate.map do |commit|
-      CommitRssItem.new(
+      CommitAtomItem.new(
         subject: commit.fetch("subject"),
         body: commit.fetch("body"),
         date: Time.parse(commit.fetch("date")),
@@ -51,7 +51,7 @@ class GitCommitChangelogTarget
     end
   end
 
-  CommitRssItem =
+  CommitAtomItem =
     Struct.new(:subject, :body, :date, :hash, keyword_init: true) do
       def title
         subject
