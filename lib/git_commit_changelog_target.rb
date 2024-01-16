@@ -63,8 +63,8 @@ class GitCommitChangelogTarget
           input: "GFM",
           syntax_highlighter: "rouge"
         }
-        content = Kramdown::Document.new(body, options).to_html.strip
-        content + github_footer
+        content = Kramdown::Document.new(body, options).to_html.strip.presence
+        [content, github_footer].compact.join("<hr />")
       end
 
       def link
