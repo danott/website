@@ -16,13 +16,17 @@ PinboardBookmark =
             href: record.fetch("href").strip,
             title: record.fetch("description").strip,
             commentary: record.fetch("extended").strip,
-            date: Date.parse(record.fetch("time")),
+            date: Time.parse(record.fetch("time")),
             tags: tags.compact.uniq
           )
         end
     end
 
     def self.download
-      File.write(PATH, YAML.dump(pull))
+      pull.tap { |bookmarks| File.write(PATH, YAML.dump(bookmarks)) }
+    end
+
+    def self.all
+      File.exists?(PATH) ? DataSet.new(PATH).data : []
     end
   end

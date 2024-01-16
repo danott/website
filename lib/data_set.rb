@@ -16,7 +16,7 @@ class DataSet
     @data ||=
       YAML.safe_load(
         File.read(path),
-        permitted_classes: [Date, PinboardBookmark, Symbol]
+        permitted_classes: [Date, HeyWorldEntry, Time, PinboardBookmark, Symbol]
       )
   end
 
