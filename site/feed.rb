@@ -1,1 +1,1 @@
-FeedTarget.new
+FeedTarget.instance

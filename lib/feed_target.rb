@@ -1,4 +1,6 @@
 class FeedTarget
+  include Singleton
+
   TARGET_PATH = Build.target_dir + "/feed.xml"
   AUTHOR = "Dan Ott".freeze
   TITLE = "Dan Ott's RSS Feed".freeze
