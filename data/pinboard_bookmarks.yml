@@ -1,5 +1,37 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/
+  title: 'Only you can give meaning to your career: How to mark moments that matter
+    by planting a flag'
+  commentary: "> But here’s the thing: *I create these things for me and me alone*.
+    When a bunch of people read something I wrote or show up to one of my talks, do
+    I find it encouraging and validating? Sure. But it’s not what drives me. I started
+    creating things to punctuate my life’s sentences long before anybody took an interest
+    in me and I wouldn’t stop even if everyone loses interest in me.\r\n>\r\n> What’s
+    more, a lot of (ugh) content creators are the same way. In the course of my travels,
+    I’ve gotten to meet many of my heroes, and while a few have disappointed me spectacularly
+    (don’t meet your heroes!), I’ve found that a surprising number of them got into
+    the thought-leading racket for the same selfish reason I did. They create stuff
+    to scratch their own intrinsic creative itches and to give meaning to their careers.
+    If other people’s attention factors in at all, it’s usually to justify the time
+    they spend making stuff.\r\n\r\nA few gems in this blog post. A few things that
+    ring true to me:\r\n\r\n- Planting flags in reflection is more rewarding than
+    setting goals and projections\r\n- Creating things that scratch my own itch is
+    more rewarding than creating things that cater to an audience"
+  date: 2024-01-16 17:04:03.000000000 Z
+  tags:
+  - career
+- !ruby/struct:PinboardBookmark
+  href: https://htmx.org/essays/is-htmx-another-javascript-framework/
+  title: Is htmx Just Another JavaScript Framework?
+  commentary: "> javascript fatigue:\\\r\n> longing for a hypertext\\\r\n> already
+    in hand\r\n\r\nI was delighted by this haiku. The rest of the article is fine.
+    What I want to remember is the poem."
+  date: 2024-01-16 16:09:22.000000000 Z
+  tags:
+  - poetry
+  - javascript
+- !ruby/struct:PinboardBookmark
   href: https://tech-universe.net/posts/other/how-to-rename-a-tag-in-pinboard/
   title: How to rename a tag in pinboard
   commentary: "```bash\r\ncurl \"https://api.pinboard.in/v1/tags/rename?old=OldTag&new=NewTag&auth_token=YOUR_API_TOKEN\"\r\n```\r\n\r\nI
