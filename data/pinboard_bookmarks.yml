@@ -1,5 +1,20 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://overreacted.io/a-chain-reaction/
+  title: A Chain Reaction
+  commentary: "> But wait, here’s a question. These transformations have to happen
+    somewhere on the way between your computer and mine. So where do they happen?\r\n>
+    \r\n> Do they happen on your computer?\r\n> \r\n> Or do they happen on mine?\r\n\r\nThis
+    is a pretty pedantic post. And I think it needs to be. But the trailing question
+    is the best. Transformation of named custom concepts into agreed upon standards
+    has to happen. That's web development.\r\n\r\nWhere that translation happens?
+    That is the question."
+  date: 2024-01-19 16:21:51.000000000 Z
+  tags:
+  - javascript
+  - react
+  - html
+- !ruby/struct:PinboardBookmark
   href: https://blog.testdouble.com/posts/2024-01-02-plant-your-flag-career-advice/
   title: 'Only you can give meaning to your career: How to mark moments that matter
     by planting a flag'
