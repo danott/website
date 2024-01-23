@@ -6,7 +6,7 @@ I read [The agile comms handbook](https://agilecommshandbook.com) by [Giles Turn
 
 The emphasis on blogging for broadcast got me wondering about minimum viable blogging environments in general. Much of the friction in maintaining a blog can be setting up (and endlessly tinkering with) a publishing environment. Readers of this RSS feed have been witness to this over the last few years.
 
-I've come to except that I *enjoy* the setup and the endless tinkering. The artifacts produced by writing are great. The process of writing is enjoyable all on it's own. The process of building the tooling that transforms markdown files into html files is fun all the same. The git commits that chronicle the deltas in the source code that transforms the markdown files into html files is even more fun. 
+I've come to accept that I *enjoy* the setup and the endless tinkering. The artifacts produced by writing are great. The process of writing is enjoyable all on it's own. The process of building the tooling that transforms markdown files into html files is fun all the same. The git commits that chronicle the deltas in the source code that transforms the markdown files into html files is even more fun. 
 
 I noticed a different flow state when writing the git commits. Git commits *feel* permanent. They chronicle the points in time of commitment to ideas. 
 
