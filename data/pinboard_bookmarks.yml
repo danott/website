@@ -1,5 +1,38 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://whatpwacando.today/
+  title: What PWA Can Do Today
+  commentary: This website is living and installable documentation about progressive
+    web apps. I learned a few things while tapping around it on my iPhone.
+  date: 2024-01-22 14:53:29.000000000 Z
+  tags:
+  - pwa
+- !ruby/struct:PinboardBookmark
+  href: https://kagi.com/
+  title: Kagi Search - A Premium Search Engine
+  commentary: "> No ads, fast and personalised results. The search engine you deserve.\r\n\r\nI've
+    made the leap paying for email. The time may be approaching to begin paying for
+    search. Privacy is worth it."
+  date: 2024-01-22 14:50:14.000000000 Z
+  tags:
+  - privacy
+- !ruby/struct:PinboardBookmark
+  href: https://robertbreen.com/2024/01/19/my-two-journals/
+  title: My Two Journals - Robert Breen
+  commentary: "> And yet, as much as I enjoy this handwritten journal, I still use
+    Day One in the evenings. The two journals flow from different parts of my brain,
+    though they work together in an interesting way.\r\n\r\nThis matches my experience.
+    There are different flow states in different writing environments. Even within
+    the same medium.\r\n\r\n> Before shelving it in its lovely slipcase alongside
+    my other paper journals, I archived a PDF copy with the scanner app on my iPhone
+    for safekeeping.\r\n\r\nI've got a box full of journals that date back 20+ years.
+    Digitizing them has been a long horizon idea. Something as simple as scanning
+    them into PDFs using Notes on my iPhone hadn't occurred to me as a minimal first
+    step. I'm gonna take it."
+  date: 2024-01-22 14:48:24.000000000 Z
+  tags:
+  - journaling
+- !ruby/struct:PinboardBookmark
   href: https://overreacted.io/a-chain-reaction/
   title: A Chain Reaction
   commentary: "> But wait, here’s a question. These transformations have to happen
