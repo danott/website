@@ -1,5 +1,85 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://cohost.org/tef/post/3175066-enshittification-is
+  title: '"enshittification is what happens when a disney adult learns about captialism"'
+  commentary: "> every venture backed company has the following plan: spend a lot
+    of money to gain a monopoly, use the monopoly to price gouge everyone, replace
+    all core services with subcontractors until the company only exists to add a 5%
+    convenience charge on all transactions.\r\n\r\n5% of the biggest pie is always
+    going to be bigger than 100% of a small pie.\r\n\r\nThere will always be outliers
+    who aren't here to eat pie. The folks who enjoy the end-to-end practice of baking
+    a pie from scratch. And seeing our friends enjoy it."
+  date: 2024-01-26 15:18:23.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://interconnected.org/home/2023/12/18/weeknote
+  title: 'Acts Not Facts weeknote #7 (Interconnected)'
+  commentary: "> It is insane how itchy and irritable I get when there is something
+    I want to get out in the world, and it is just inches away from getting there.
+    I always forget.\r\n> \r\n> It’s like… when something is out, whether it’s a public
+    demo or better in people hands, it can stop living in my head and start being
+    material that I work with to make the next thing.\r\n> \r\n> (This goes for things
+    I’m making with my own hands or making with other people.)\r\n> \r\n> And when
+    I’m carrying something half-complete in my imagination… it’s a weight, it’s a
+    drag.\r\n\r\nSo it's not just me. Phew."
+  date: 2024-01-26 15:10:51.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://world.hey.com/jorge/the-radiating-programmer-2ece7066
+  title: The radiating programmer
+  commentary: "> Radiating information is not free; it takes time. You need to find
+    a balance that makes sense. I estimate I spend one or two hours per week writing
+    what I did or project updates. I usually leave it for the last part of my day.
+    It doesn’t interrupt my main focused work, and it doesn’t happen every day. It’s
+    also a muscle to train. The more you do it, the easier it gets.\r\n> \r\n> And
+    whenever it feels like a chore, I remind myself that it is a chore that lets me
+    spend most of my time doing what I like.\r\n\r\nI've noticed that humble people
+    tend to share too little information. They want to avoid the risks of appearing
+    arrogant. They want the work to speak for itself. \r\n\r\nThese are good motivations.
+    Nobody wants to work with the arrogant one. And the work should be good enough
+    to speak for itself.\r\n\r\nDistilling a week's worth of work down into a digestible
+    paragraph or sentence is a skill. It is an amplifier to the work that speaks for
+    itself. And the work that won't hold water in two weeks time.\r\n\r\nSummarizing
+    accomplishments is an extract of the raw goods. Good work can be communicated
+    in brief summaries. This signals that the essence of the problem being solved
+    was understood. Shotty work makes for disjointed summaries. The person is trying
+    to get to the essence of the problem for the first time in reflection.\r\n\r\nYou
+    hear about this all the time. A thoughtful person goes to write the git commit.
+    While writing about the problem and their solution they uncover a new understanding
+    of the problem and a clearer solution. They don't settle for first impressions
+    and first drafts. Their own writing is a feedback loop that improves their writing."
+  date: 2024-01-26 15:09:44.000000000 Z
+  tags:
+  - writing
+- !ruby/struct:PinboardBookmark
+  href: https://blog.glyph.im/2024/01/unsigned-commits.html
+  title: 'Deciphering Glyph :: Unsigned Commits'
+  commentary: "> Commits cannot meaningfully be changed to become signed retroactively.
+    Unlike an online website, they are part of a historical record, not an operating
+    program. So we cannot establish the difference in treatment by changing how unsigned
+    commits are treated.\r\n\r\nThinking of a website as an operating program is a
+    new thought for me. \"Static site generators\" shape the thinking that websites
+    are static. The request/response lifecycle that takes my html to your machine
+    is not static. It's alive!\r\n\r\n> That probably seemed like increasingly unhinged
+    hyperbole, and it was.\r\n\r\nThis is a great sentence. Unhinged hyperbole respects
+    unhinged hyperbole.\r\n\r\n> Just from a baseline utilitarian philosophical perspective,
+    for a given action A, all else being equal, it’s always better not to do A, because
+    taking an action always has some non-zero opportunity cost even if it is just
+    the time taken to do it. Epsilon cost and zero benefit is still a net harm.\r\n\r\nOpportunity
+    costs and unpredictable second and third order effects are always present. This
+    isn't a reason to not take action. It is a reason to truly find value in the desired
+    outcome of the action being taken. \r\n\r\n> What I am actually trying to point
+    out here is that it is useful to carefully consider how to avoid adding junk complexity
+    to your systems. One area where junk tends to leak in to designs and to cultures
+    particularly easily is in intimidating subjects like trust and safety, where it
+    is easy to get anxious and convince ourselves that piling on more stuff is safer
+    than leaving things simple.\r\n\r\nLess is more."
+  date: 2024-01-26 14:53:09.000000000 Z
+  tags:
+  - git
+  - github
+  - security
+- !ruby/struct:PinboardBookmark
   href: https://whatpwacando.today/
   title: What PWA Can Do Today
   commentary: This website is living and installable documentation about progressive
