@@ -1,5 +1,40 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://snook.ca/archives/accessibility_and_usability/squeaky-wheel-gets-the-grease
+  title: Squeaky Wheel Gets the Grease - Snook.ca
+  commentary: "> Any working system can become invisible to the point where the system
+    loses value because it’s working.\r\n\r\n\"Look at all the things that aren't
+    falling apart\" is one of the greatest challenges of building tight operations.
+    Things that are done well are invisible because the problems are being consistently,
+    adequately, and even automatically solved."
+  date: 2024-02-06 16:14:44.000000000 Z
+  tags:
+  - management
+  - systems
+- !ruby/struct:PinboardBookmark
+  href: https://enhance.dev/
+  title: Enhance
+  commentary: "> THE HTML FIRST FULL STACK WEB FRAMEWORK\r\n\r\nThe bold headline
+    worked on me. This is one to watch. Their \"server rendered custom elements\"
+    feels like a good name for [what I was playing with](https://www.threads.net/@danott/post/C1IgdV1upWM)
+    a few weeks ago.\r\n\r\nHTML!"
+  date: 2024-02-06 15:50:34.000000000 Z
+  tags:
+  - html
+  - web
+- !ruby/struct:PinboardBookmark
+  href: https://kk.org/thetechnium/the-trust-flip/
+  title: The Trust Flip
+  commentary: "> We will come to see that our default of “trust first and check later”
+    was only a short temporary anomaly in our long history. We are back to the state
+    we have been in for most of our time as humans, where we “check first and trust
+    later.”\r\n\r\nThis historical perspective is helpful. It is a short window of
+    human history where photographs and videos were the primary validation of truth
+    claims. We've operated on networks of trust and reputation before. We can operate
+    on them again."
+  date: 2024-02-06 15:45:08.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
   href: https://cohost.org/tef/post/3175066-enshittification-is
   title: '"enshittification is what happens when a disney adult learns about captialism"'
   commentary: "> every venture backed company has the following plan: spend a lot
