@@ -1,5 +1,33 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://github.com/sveltejs/svelte/discussions/10085#discussion-6029409
+  title: SvelteJS Tenets
+  commentary: I haven't used Svelte beyond tinkering with demos. It's easy to align
+    with these tenets in the abstract.
+  date: 2024-02-12 14:02:35.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://kk.org/thetechnium/hill-making-vs-hill-climbing/
+  title: 'The Technium: Hill-Making vs Hill-Climbing'
+  commentary: "Hill-making, hill-climbing, and hill-finding are all mentioned in this
+    piece. A great metaphor to think through team interactions.\r\n\r\nI've noticed
+    that conversations between a hill-makers and a hill-climbers devolve quickly.
+    One person thinks about terraforming the landscape. The other person assumes a
+    fixed landscape that need only to be taken. Then there are others who will only
+    ascend the hill if there is a clearly marked path before them."
+  date: 2024-02-12 14:01:06.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://adrianroselli.com/2024/02/dont-disable-form-controls.html
+  title: Don’t Disable Form Controls
+  commentary: "> This burden should always be on the author, not the user. If you
+    find yourself blaming the user for the pattern you built, you might be bad at
+    your job."
+  date: 2024-02-12 13:53:54.000000000 Z
+  tags:
+  - html
+  - forms
+- !ruby/struct:PinboardBookmark
   href: https://snook.ca/archives/accessibility_and_usability/squeaky-wheel-gets-the-grease
   title: Squeaky Wheel Gets the Grease - Snook.ca
   commentary: "> Any working system can become invisible to the point where the system
