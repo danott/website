@@ -1,5 +1,36 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://32bit.cafe/cyowebsite/
+  title: 32-Bit Cafe
+  commentary: Yes. You can build your own website. 32-Bit Cafe has the no assumptions
+    guide you need to get started.
+  date: 2024-02-19 22:03:11.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://pong-wars.vercel.app/
+  title: Pong Wars
+  commentary: Mesmerizing visualization. Will one side ever win?
+  date: 2024-02-19 22:01:53.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://snook.ca/archives/javascript/lenticular-photos
+  title: Lenticular Photos
+  commentary: My favorite lenticular illusion was a Ghostbusters bookmark. This is
+    a pleasing effect that makes reasonable use of on device technology. Jump strait
+    to [the prototype](https://snook.ca/rotate/) and tilt your mobile phone.
+  date: 2024-02-19 22:01:10.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
+  href: https://daverupert.com/2024/02/robo-barf/
+  title: A dozen thoughts about AI
+  commentary: "> Maybe we need a new fairy tale about a kid who lets a witch’s robot
+    do all their chores and then the kid gets eaten up by the witch.\r\n\r\n100% onboard
+    for the re-emergence of cautionary tales to introduce children to the dangers
+    of putting too much trust in technology."
+  date: 2024-02-19 21:52:55.000000000 Z
+  tags:
+  - ai
+- !ruby/struct:PinboardBookmark
   href: https://github.com/sveltejs/svelte/discussions/10085#discussion-6029409
   title: SvelteJS Tenets
   commentary: I haven't used Svelte beyond tinkering with demos. It's easy to align
