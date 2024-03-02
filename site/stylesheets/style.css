@@ -165,7 +165,7 @@ html {
 body {
   line-height: 1.6;
   margin: 0 auto;
-  max-width: 40rem;
+  max-width: 32rem;
   padding: 4rem 1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
