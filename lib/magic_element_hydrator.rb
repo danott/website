@@ -12,7 +12,7 @@ class MagicElementHydrator
   end
 
   def next_magic_element
-    IncludeInHeader.recognize(content) || EvalRuby.recognize(content, self)
+    EvalRuby.recognize(content, self) || IncludeInHeader.recognize(content)
   end
 
   def next
