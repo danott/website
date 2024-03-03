@@ -95,7 +95,8 @@ textarea:not([rows]) {
 /* Begin my styles */
 
 :root {
-  font-size: 100%;
+  --font-size: 112.5%;
+  --text-max-width: 60ch;
 
   /* Modern Font Stacks https://github.com/system-fonts/modern-font-stacks */
   --font-system: system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
@@ -150,25 +151,27 @@ textarea:not([rows]) {
 }
 
 @media (min-width: 40rem) {
-  :root {
-    font-size: 140%;
+  body {
+    --font-size: 125%;
   }
 }
 
 html {
   color-scheme: light dark;
-  font-family: var(--font-rounded-sans);
-  font-size: var(--font-size);
   scroll-behavior: smooth;
+
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
 }
 
 body {
+  font-family: var(--font-system);
+  font-size: var(--font-size);
   line-height: 1.6;
+
   margin: 0 auto;
-  max-width: 32rem;
+  max-width: var(--text-max-width);
   padding: 4rem 1rem;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 h1 {
