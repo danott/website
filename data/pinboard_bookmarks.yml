@@ -1,5 +1,12 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://daftsocial.com/
+  title: Daft Social
+  commentary: This is the most compelling social media I’ve seen yet. Send an email.
+    Embrace the subject line. That’s it.
+  date: 2024-03-05 01:00:22.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
   href: https://32bit.cafe/cyowebsite/
   title: 32-Bit Cafe
   commentary: Yes. You can build your own website. 32-Bit Cafe has the no assumptions
