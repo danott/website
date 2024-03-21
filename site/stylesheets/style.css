@@ -95,7 +95,6 @@ textarea:not([rows]) {
 /* Begin my styles */
 
 :root {
-  --font-size: 112.5%;
   --text-max-width: 60ch;
 
   /* Modern Font Stacks https://github.com/system-fonts/modern-font-stacks */
@@ -146,14 +145,6 @@ textarea:not([rows]) {
 }
 
 @media (prefers-color-scheme: dark) {
-  :root {
-  }
-}
-
-@media (min-width: 40rem) {
-  body {
-    --font-size: 125%;
-  }
 }
 
 html {
@@ -164,9 +155,28 @@ html {
   -webkit-font-smoothing: antialiased;
 }
 
+/* BEGIN: Respect the reader's preferences */
+/* Inspired by: https://adrianroselli.com/2024/03/the-ultimate-ideal-bestest-base-font-size-that-everyone-is-keeping-a-secret-especially-chet.html */
+body {
+  font-size: 100%;
+}
+
+select,
+textarea,
+input,
+button {
+  font: inherit;
+}
+
+@media print {
+  body {
+    font-size: 8pt;
+  }
+}
+/* END: Respect the reader's preferences */
+
 body {
   font-family: var(--font-system);
-  font-size: var(--font-size);
   line-height: 1.6;
 
   margin: 0 auto;
