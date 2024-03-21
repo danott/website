@@ -1,5 +1,14 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://www.anildash.com/2024/03/10/make-better-documents/
+  title: Make better documents.
+  commentary: A super practical collection of actionable advice for writing in the
+    workplace.
+  date: 2024-03-20 10:31:09.000000000 Z
+  tags:
+  - writing
+  - management
+- !ruby/struct:PinboardBookmark
   href: https://daftsocial.com/
   title: Daft Social
   commentary: This is the most compelling social media I’ve seen yet. Send an email.
