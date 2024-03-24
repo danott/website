@@ -77,6 +77,6 @@ task :generate do
   MARKDOWN
 
   FileUtils.mkdir_p(File.dirname(filename))
-  File.write(filename, content) unless File.exists?(filename)
+  File.write(filename, content) unless File.exist?(filename)
   `code #{filename}`
 end
