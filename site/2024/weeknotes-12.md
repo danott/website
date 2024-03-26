@@ -2,8 +2,6 @@
 
 # Weeknotes: 2024, Week 12
 
-#blog/draft
-
 Another week in the books. Another energy level of bullet points.
 
 - First mow of the year. The grass is greener.
