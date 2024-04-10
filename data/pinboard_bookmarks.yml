@@ -1,5 +1,11 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://everythingchanges.us/blog/fill-up-those-praise-folders/
+  title: Fill up those praise folders
+  commentary: A valuable resource if you can build it.
+  date: 2024-04-09 15:12:18.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
   href: https://www.anildash.com/2024/03/10/make-better-documents/
   title: Make better documents.
   commentary: A super practical collection of actionable advice for writing in the
