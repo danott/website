@@ -12,7 +12,7 @@ St. Louis is west on I-64. We took Versailles road to get to the interstate, pas
 
 Then there’s Louisville. I’ve never understood the appeal. I saw DragonForce, Death Cab for Cutie, and Jerry Seinfeld at The Palace in my twenties on separate occasions. Other than the population density to draw larger acts, Louisville seems forgettable. Go Cats. 
 
-Our first charging stop was at a Casey’s in Missouri. We ventured into the convenience to assemble a lunch. The first of many shops where we would train our children against the impulse to buy something of fleeting value at every stop. Lunchables for the kids. Prosciutto wrapped around mozzarella for me. Emily stuck to the pre-packed snacks, and I recall pumpkin seeds specifically. 
+Our first charging stop was at a Casey’s in Indiana. We ventured into the convenience to assemble a lunch. The first of many shops where we would train our children against the impulse to buy something of fleeting value at every stop. Lunchables for the kids. Prosciutto wrapped around mozzarella for me. Emily stuck to the pre-packed snacks, and I recall pumpkin seeds specifically. 
 
 Our picnic blanket was spread on concrete in the shade of the car wash. Cleanliness was present within and without. The timing of a full charge was perfect for refueling our vehicle and relieving ourselves. We packed it back in and continued west. 
 
