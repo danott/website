@@ -1,5 +1,17 @@
 ---
 - !ruby/struct:PinboardBookmark
+  href: https://amivora.substack.com/p/the-4-components-of-product-quality
+  title: 'The 4 components of product quality: performance, bugs, completeness, and
+    consistency'
+  commentary: "> These 4 components of quality have proven to be straightforward,
+    independent, mostly measurable streams to track.  There’s no need for a “grand
+    quality metric” which combines them, and no complex coordination system required
+    to manage all these in lockstep.  Customers are happy when any of these improve,
+    so I can just make progress on each of them individually whenever it makes sense.\r\n\r\nI'm
+    always down for a simple system that does not overcomplicate things."
+  date: 2024-09-17 19:14:59.000000000 Z
+  tags: []
+- !ruby/struct:PinboardBookmark
   href: https://everythingchanges.us/blog/fill-up-those-praise-folders/
   title: Fill up those praise folders
   commentary: A valuable resource if you can build it.
