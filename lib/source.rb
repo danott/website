@@ -11,7 +11,7 @@ class Source
     case extname
     when ".md"
       MarkdownSource.new(path: path, content: MagicFile.read(path))
-    when ".css", ".jpg", ".js", ".png"
+    when ".css", ".jpg", ".js", ".png", ".html"
       FileCopier.new(path)
     when ".rb"
       eval(File.read(path))
